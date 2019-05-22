@@ -1,10 +1,13 @@
 # Projeto Abrigo dos Velhinhos
-    O projeto tem como intuito criar um site para o abrigo dos velhinhos em Tubarão SC.
-Tente instalar o git no seu pc, criar seu repositório, baixar este arquivo e dê um commit com seu nome na lista abaixo:
+O projeto tem como intuito criar um site para o abrigo dos velhinhos em Tubarão SC.
 
-Quem conseguiu:
-1 Vinícius
-2 - 
-3 - 
-4 - 
-5 - 
+## Teste do repositório
+Faça a instalação do [git](https://git-scm.com/) em sua máquina, em seguida faça o clone deste [repositório](https://github.com/azilinho/projeto_abrigo_velhinhos), insira seu nome na lista abaixo e dê um commit com seu nome:
+    
+> Desenvolvedores {
+> 1. Vinícius;
+> 2. 
+> 3. 
+> 4. 
+> 5.   
+>}
