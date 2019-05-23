@@ -6,7 +6,7 @@ Faça a instalação do [git](https://git-scm.com/) em sua máquina, em seguida 
     
 > Desenvolvedores {
 > 1. Vinícius;
-> 2. 
+> 2. Gustavo;
 > 3. 
 > 4. 
 > 5.   
