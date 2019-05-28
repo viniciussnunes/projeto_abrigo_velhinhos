@@ -12,3 +12,11 @@
 */
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/historia', 'HistoriaController@historia');
+
+Route::get('/cadastros', 'CadastrosController@cadastros');
+
+Route::get('/noticias', 'NoticiasController@noticias');
+
+Route::get('/doacoes', 'DoacoesController@doacoes');

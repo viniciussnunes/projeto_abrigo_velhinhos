@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Usuario;
 
-class HomeController extends Controller
+class HistoriaController extends Controller
 {
-    public function index()
+    public function historia()
     {
         
         $usuarios = Usuario::get()->toArray();
@@ -16,6 +16,6 @@ class HomeController extends Controller
             'usuarios'=>$usuarios,
             'teste'=>'ola'
         ];
-        return view('paginas/index', $response);
+        return view('paginas/historia', $response);
     }
 }
