@@ -12,7 +12,7 @@
       <div class="carousel-item active" style="height:450px; width: 100%">
         <img id="homeImagemSlide1" src="{{ asset('img/promissed_neverland.png') }}" class="d-block w-100;">
         <div class="carousel-caption d-none d-md-block">
-          <h5 id="homeTituloSlide1"></h5>
+          <h5 id="homeTituloSlide1">First slide label</h5>
           <p id="homeTextoSlide1">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
@@ -26,7 +26,7 @@
       <div class="carousel-item" style="height:450px; width: 100%;">
         <img id="homeImagemSlide3" src="{{ asset('img/overlord3.jpg') }}" class="d-block w-100">
         <div class="carousel-caption d-none d-md-block">
-          <h5 id="homeTituloSlide3">Second slide label</h5>
+          <h5 id="homeTituloSlide3">Third slide label</h5>
           <p id="homeTextoSlide3">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div> 
@@ -43,7 +43,7 @@
 </div>
 <div style="width: 88%; margin-top: 30px; margin-left: 10%">
   <div style="width: 45%; text-align: center; display: block; overflow: hidden; float: left">
-    <h2>asdasdsad</h2>
+    <h2>Parceiros</h2>
     <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut veniam odio minima quod perspiciatis deleniti accusantium omnis voluptas quaerat quia. Eos, molestiae voluptatum amet in quas dolorum obcaecati? Quisquam, possimus.</p>
   </div>
   <div style="width: 35%; display: block; overflow: hidden; float: right">
