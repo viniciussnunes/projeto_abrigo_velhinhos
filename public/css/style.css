@@ -1,0 +1,17 @@
+/* Geral */
+body { margin: 0; padding: 0; }
+.marginbottom { margin-bottom: 50px; }
+
+/* Carrossel */
+#divCarrossel { width: 100%; margin: auto; background-color:black; }
+.carrosselItem { height: 450px; width: 100%; }
+
+/* Parceiros */
+#divParceiros { height: 400px; padding: 50px 150px}
+#divParceirosTexto { float: left; width: 500px}
+#divParceirosImagem { float: right; }
+#divParceirosImagem>img { height: 300px; }
+
+/* Card Deck */
+.cardHome { padding: 0 50px; }
+.card{background-color: lightgray}
