@@ -8,6 +8,6 @@ Faça a instalação do [git](https://git-scm.com/) em sua máquina, em seguida 
 > 1. Vinícius;
 > 2. Gustavo;
 > 3. Fernando;
-> 4. 
+> 4. Murilo;
 > 5.   
 >}
