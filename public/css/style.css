@@ -20,3 +20,9 @@ body { margin: 0; padding: 0; }
 .divParceirosImagem>img { height: 300px; }
 .divParceirosImagem { background-color: transparent; border: unset }
 
+/*Footer*/
+.redsoc{
+    width: 20px;
+    height: 20px;
+    color: red;
+}

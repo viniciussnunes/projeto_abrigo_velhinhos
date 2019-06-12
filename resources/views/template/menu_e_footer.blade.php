@@ -44,40 +44,37 @@
 
 <footer class="page-footer font-small bg-info pt-4 pad">
   <div class="container-fluid text-center text-md-left">
-    <div class="row">
-      <div class="col-md-6 mt-md-0 mt-3">
-        <h5 class="text-uppercase">Lorem Ipsum</h5>
-        <p  class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Vestibulum ultrices luctus metus.</p>
-      </div>
+    <div class="row" style="justify-content: center">
       <hr class="clearfix w-100 d-md-none pb-3">
       <div class="col-md-3 mb-md-0 mb-3">
           <h5 class="text-uppercase">consectetur</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!" class="text-light">Ipsum</a>
+              <p class="text-light">Endereço:sfhsfhshufhufsduh</p>
             </li>
             <li>
-              <a href="#!" class="text-light">Interdum</a>
+              <p class="text-light">E-mail:asdasd@dgsg.com</p>
             </li>
             <li>
-              <a href="#!" class="text-light">Vestibulum</a>
-            </li>
-            <li>
-              <a href="#!" class="text-light">Roncus</a>
+              <p class="text-light">Telefone:99999999</p>
             </li>
           </ul>
         </div>
         <div class="col-md-3 mb-md-0 mb-3">
-          <h5 class="text-uppercase">Sodales</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-light">Tempus </a>
-            </li>
-            <li>
-              <a href="#!" class="text-light">Commodo</a>
-            </li>
-          </ul>
+          <h5 class="text-uppercase">Redes Sociais</h5>
+              <div>
+          <div class="redsoc">
+          <img class="card-img-top" src="..." alt="Facebook">
+          </div>
+            
+              <div class="redsoc">
+              <img class="card-img-top" src="..." alt="Zap">
+              </div>
+            
+              <div class="redsoc">
+              <img class="card-img-top" src="..." alt="Instagram">
+              </div>
+          </div>
         </div>
     </div>
   </div>
