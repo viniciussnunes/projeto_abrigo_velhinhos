@@ -1,9 +1,9 @@
 /* Geral */
 body { margin: 0; padding: 0; }
 
-/* Logo Navbar */
+/* Navbar */
 @media (max-width:991px){
-    #nav-item-logo{ display: none }
+    #nav-item-logo { display: none }
 }
 
 /* Carrossel */
@@ -15,10 +15,16 @@ body { margin: 0; padding: 0; }
 .card { background-color: lightgray }
 
 /* Parceiros */
-.divParceiros { margin-bottom: 50px; padding: 0 50px; width: 100%; }
-.divParceirosTexto { background-color: transparent; border: unset }
-.divParceirosImagem>img { height: 300px; }
-.divParceirosImagem { background-color: transparent; border: unset }
+#divParceiros { margin-bottom: 50px; padding: 0 50px; width: 100%; }
+.divParceiros { background-color: transparent; border: unset }
+.divParceiros>img { height: 300px; }
 
-/* LoginAdm */
-#loginAdmInput { size: 50px }
+/* Noticias */
+#divNoticias { margin-bottom: 50px; padding: 0 50px; width: 100%; }
+.divNoticias { background-color: transparent; border: unset; text-align: center }
+
+/*Footer*/
+.redsoc{
+    width: 30px;
+    padding-bottom: 15px
+}

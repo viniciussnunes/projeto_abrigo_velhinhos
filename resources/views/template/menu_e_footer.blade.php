@@ -11,7 +11,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler botaoMenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 <div> 
@@ -48,41 +48,34 @@
 
 <footer class="page-footer font-small bg-info pt-4 pad">
   <div class="container-fluid text-center text-md-left">
-    <div class="row">
-      <div class="col-md-6 mt-md-0 mt-3">
-        <h5 class="text-uppercase">Lorem Ipsum</h5>
-        <p  class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Vestibulum ultrices luctus metus.</p>
-      </div>
+    <div class="row" style="justify-content: center">
       <hr class="clearfix w-100 d-md-none pb-3">
       <div class="col-md-3 mb-md-0 mb-3">
           <h5 class="text-uppercase">consectetur</h5>
           <ul class="list-unstyled">
             <li>
-              <a href="#!" class="text-light">Ipsum</a>
+              <a href="https://wego.here.com/directions/mix//Abrigo-dos-Velhinhos-de-Tubarao,-Rua-S%C3%A3o-Jo%C3%A3o-,-1125,-88704-100-Tubar%C3%A3o,-Brazil:e-eyJuYW1lIjoiQWJyaWdvIGRvcyBWZWxoaW5ob3MgZGUgVHViYXJhbyIsImFkZHJlc3MiOiJSdWEgU1x1MDBlM28gSm9cdTAwZTNvICwgMTEyNSwgVHViYXJcdTAwZTNvIChTYW50YSBDYXRhcmluYSkiLCJsYXRpdHVkZSI6LTI4LjQ3NDc2NjgwMDEwNiwibG9uZ2l0dWRlIjotNDkuMDMxOTgyODkyMDAyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjIwMDU3NzE3Njk2OTA5MH0=?map=-28.47477,-49.03198,15,normal&fb_locale=pt_BR"><p class="text-light">Endereço: Rua São João , 1125 8704-100 Tubarão (Santa Catarina)</p></a>
             </li>
             <li>
-              <a href="#!" class="text-light">Interdum</a>
+              <p class="text-light">E-mail:asdasd@dgsg.com</p>
             </li>
             <li>
-              <a href="#!" class="text-light">Vestibulum</a>
-            </li>
-            <li>
-              <a href="#!" class="text-light">Roncus</a>
+              <p class="text-light">Telefone:	(48) 3628-0351</p>
             </li>
           </ul>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Redes Sociais</h5>
+        <div class="redsoc">
+          <a href="https://www.facebook.com/pages/Abrigo-dos-Velhinhos-de-Tubarao/200577176969090"><img class="card-img-top" src="{{ asset('img/facebook.png') }}" ></a>
         </div>
-        <div class="col-md-3 mb-md-0 mb-3">
-          <h5 class="text-uppercase">Sodales</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!" class="text-light">Tempus </a>
-            </li>
-            <li>
-              <a href="#!" class="text-light">Commodo</a>
-            </li>
-          </ul>
+        <div class="redsoc">
+          <img class="card-img-top" src="{{ asset('img/instagram.png') }}">
         </div>
+        <div class="redsoc">
+          <img class="card-img-top" src="{{ asset('img/whatsapp.png') }}">
+        </div>
+      </div>
     </div>
   </div>
   <div class="footer-copyright text-center py-3 bg-secondary text-light">© 2019 Copyright: 

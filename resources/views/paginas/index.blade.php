@@ -41,12 +41,12 @@
     </a>
   </div>
 </div>
-<div class="card-deck divParceiros">
-  <div class="card divParceirosTexto">
+<div class="card-deck" id="divParceiros">
+  <div class="card divParceiros">
     <h2>Parceiros</h2>
     <p>Lorem ipsum dolo sit amet consectetur, adipisicing elit. Ut veniam odio minima quod perspiciatis deleniti accusantium omnis voluptas quaerat quia. Eos, molestiae voluptatum amet in quas dolorum obcaecati? Quisquam, possimus.</p>
   </div>
-  <div class="card divParceirosImagem">
+  <div class="card divParceiros">
     <img id="homeImagemContribuidores " src="{{ asset('img/FundoPreto.jpg') }}">
   </div>
 </div>
@@ -76,4 +76,5 @@
     </div>
   </div>
 </div>
+
 @endsection

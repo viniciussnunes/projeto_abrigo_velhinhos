@@ -4,45 +4,7 @@
 
 <main role="main" class="container">
 
-<div class="starter-template" style="margin-top: 100px;">
-  <h1>Cadastro</h1>
-  <p class="lead">Voluntarios.<br> Cadastro de Velhinhos e seu responsável.</p>
-</div>
-
-<form>
-  <div class="form-group">
-     <label for="inputAddress">Nome Completo</label>
-     <input type="text" class="form-control" name="volnome" placeholder="Nome">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">E-mail</label>
-    <input type="text" class="form-control" name="volemail" placeholder="E-mail">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Telefone</label>
-    <input type="text" class="form-control" name="voltelefone" placeholder="Telefone">
-  </div>
-  <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Função</label>
-        <input type="text" class="form-control" name="volfuncao" placeholder="Função">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Tempo Hábil</label>
-        <select type="text" class="form-control" name="voltempo" placeholder="Tempo Hábil">
-          <option>...</option>
-          <option>Matutino</option>
-          <option>Vespertino</option>
-          <option>Integral</option>>
-        </select>
-      </div>
-    </div>
-  
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
-
-<!-- ##############CADASTRO DE IDOSO##################################### -->
-<h2>Cadastro de Idosos!</h2>
+<h2>Cadastre um Idoso</h2>
 
 <form>
       <div class="form-row">
@@ -55,7 +17,6 @@
           <input type="text" class="form-control" name="iddoenca" placeholder="Descreva">
         </div>
       </div>
-      
       <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Data de Nascimento</label>
@@ -70,7 +31,7 @@
             </select>
           </div>
         </div>
-      <h3>Responsável</h3>
+      <h3>Responsável pelo Idoso</h3>
       <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputEmail4">Nome Completo</label>
@@ -126,7 +87,7 @@
                               </div>
                             </div>
 
-      <button type="submit" class="btn btn-primary">Sign in</button>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
 
 </main>
