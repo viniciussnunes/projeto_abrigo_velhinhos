@@ -9,13 +9,6 @@ class HistoriaController extends Controller
 {
     public function historia()
     {
-        
-        $usuarios = Usuario::get()->toArray();
-
-        $response = [
-            'usuarios'=>$usuarios,
-            'teste'=>'ola'
-        ];
-        return view('paginas/historia', $response);
+        return view('paginas/historia');
     }
 }

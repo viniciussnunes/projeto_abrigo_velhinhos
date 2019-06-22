@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('/css/style.css')}}">
-    <title>Document</title>
+    <title>Abrigo Dos Velhinhos</title>
 </head>
 <body>
 
@@ -30,10 +30,14 @@
         <a class="nav-link" href="/noticias">Notícias</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/cadastros">Cadastros</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="/doacoes">Doações</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastros</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="/cadastroIdoso">Cadastro de Idoso</a>
+          <a class="dropdown-item" href="/cadastroVoluntario">Cadastro de Voluntário</a>
+        </div>
       </li>
     </ul>
   </div>

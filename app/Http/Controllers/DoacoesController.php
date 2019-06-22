@@ -9,13 +9,6 @@ class DoacoesController extends Controller
 {
     public function doacoes()
     {
-        
-        $usuarios = Usuario::get()->toArray();
-
-        $response = [
-            'usuarios'=>$usuarios,
-            'teste'=>'ola'
-        ];
-        return view('paginas/doacoes', $response);
+        return view('paginas/doacoes');
     }
 }

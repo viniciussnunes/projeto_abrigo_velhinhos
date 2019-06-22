@@ -9,13 +9,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        
-        $usuarios = Usuario::get()->toArray();
-
-        $response = [
-            'usuarios'=>$usuarios,
-            'teste'=>'ola'
-        ];
-        return view('paginas/index', $response);
+        return view('paginas/index');
     }
 }

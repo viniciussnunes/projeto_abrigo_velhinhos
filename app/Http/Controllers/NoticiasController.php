@@ -9,13 +9,6 @@ class NoticiasController extends Controller
 {
     public function noticias()
     {
-        
-        $usuarios = Usuario::get()->toArray();
-
-        $response = [
-            'usuarios'=>$usuarios,
-            'teste'=>'ola'
-        ];
-        return view('paginas/noticias', $response);
+        return view('paginas/noticias');
     }
 }

@@ -52,26 +52,26 @@
 </div>
 <div class="card-deck cardHome" >
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="{{ asset('img/FundoPreto.jpg') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <a href="#" class="btn btn-primary">Visitar</a>  
+      <h5 class="card-title">Fique atualizado</h5>
+      <p class="card-text">Fique por dentro de tudo que está acontecendo no Abrigo!</p>
+      <a href="/noticias" class="btn btn-primary">Visitar</a>  
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="{{ asset('img/FundoVermelho.jpg') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Visitar</a>
+      <h5 class="card-titleA">Doe</h5>
+      <p class="card-text">Nos ajude financeiramente para que possamos manter nosssas atividades!</p>
+      <a href="/doacoes" class="btn btn-primary">Visitar</a>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="{{ asset('img/FundoRosa.jpg') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title">Seja um voluntário</h5>
+      <p class="card-text">Estamos sempre precisando de pessoas para nos ajudar!</p>
       <a href="#" class="btn btn-primary">Visitar</a>    
     </div>
   </div>
