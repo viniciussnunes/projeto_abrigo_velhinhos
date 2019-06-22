@@ -44,7 +44,7 @@
 <div class="card-deck divParceiros">
   <div class="card divParceirosTexto">
     <h2>Parceiros</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut veniam odio minima quod perspiciatis deleniti accusantium omnis voluptas quaerat quia. Eos, molestiae voluptatum amet in quas dolorum obcaecati? Quisquam, possimus.</p>
+    <p>Lorem ipsum dolo sit amet consectetur, adipisicing elit. Ut veniam odio minima quod perspiciatis deleniti accusantium omnis voluptas quaerat quia. Eos, molestiae voluptatum amet in quas dolorum obcaecati? Quisquam, possimus.</p>
   </div>
   <div class="card divParceirosImagem">
     <img id="homeImagemContribuidores " src="{{ asset('img/FundoPreto.jpg') }}">
