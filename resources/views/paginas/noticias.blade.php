@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="card-deck cardHome" id="divNoticias">
+<div class="card-deck card-home" id="divNoticias">
   <div class="card divNoticias">
     <div class="card-body">
       <h1 class="card-title">Sopão</h1>

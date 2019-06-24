@@ -50,7 +50,7 @@
     <img id="homeImagemContribuidores " src="{{ asset('img/FundoPreto.jpg') }}">
   </div>
 </div>
-<div class="card-deck cardHome" >
+<div class="card-deck card-home" >
   <div class="card">
     <img class="card-img-top" src="{{ asset('img/FundoPreto.jpg') }}" alt="Card image cap">
     <div class="card-body">
@@ -72,7 +72,7 @@
     <div class="card-body">
       <h5 class="card-title">Seja um voluntário</h5>
       <p class="card-text">Estamos sempre precisando de pessoas para nos ajudar!</p>
-      <a href="#" class="btn btn-primary">Visitar</a>    
+      <a href="/cadastroVoluntario" class="btn btn-primary">Visitar</a>    
     </div>
   </div>
 </div>

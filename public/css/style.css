@@ -11,7 +11,12 @@ body { margin: 0; padding: 0; }
 .carrosselItem>img { width: 100%; height: 450px; }
 
 /* Card Deck */
-.cardHome { padding: 0 50px; margin-bottom: 50px; }
+.card-home { 
+    padding: 0 50px; 
+    margin-bottom: 50px; 
+    margin-right: 0px;
+    margin-left: 0px;
+}
 .card { background-color: lightgray }
 
 /* Parceiros */
