@@ -22,6 +22,4 @@ Route::get('/cadastroIdoso', 'CadastroIdosoController@cadastroIdoso');
 
 Route::get('/cadastroVoluntario', 'CadastroVoluntarioController@cadastroVoluntario');
 
-Route::get('/doacoes', 'DoacoesController@doacoes');
-
 Route::get('/loginAdm', 'LoginAdmController@loginAdm');

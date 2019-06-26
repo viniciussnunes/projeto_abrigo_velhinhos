@@ -20,7 +20,7 @@
 </div>
 <div class="divNoticias container">
   <h1>Prestação de contas</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, cupiditate ab, nemo aut soluta eaque animi quaerat laboriosam nam iusto, modi sapiente quisquam nulla aliquid veniam totam esse fugit voluptatem.</p>
+  <p class ="margin-bot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, cupiditate ab, nemo aut soluta eaque animi quaerat laboriosam nam iusto, modi sapiente quisquam nulla aliquid veniam totam esse fugit voluptatem.</p>
 </div>
 
 @endsection

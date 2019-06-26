@@ -1,3 +1,5 @@
+$tamanho-padrao: 50px;
+
 /* Geral */
 body { margin: 0; padding: 0; }
 
@@ -27,9 +29,15 @@ body { margin: 0; padding: 0; }
 /* Noticias */
 #divNoticias { margin-bottom: 50px; padding: 0 50px; width: 100%; }
 .divNoticias { background-color: transparent; border: unset; text-align: center }
-
+.margin-bot{margin-bottom: 50px}
 /*Footer*/
 .redsoc{
     width: 30px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
+    margin-right: 15px
+}
+
+/*Botao cadastrar*/
+.botao-nargin {
+margin-bottom: 50px
 }

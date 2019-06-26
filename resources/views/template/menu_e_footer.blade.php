@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/style.scss')}}">
     <title>Abrigo Dos Velhinhos</title>
 </head>
 <body>
@@ -29,9 +29,6 @@
       <li class="nav-item">
         <a class="nav-link" href="/noticias">Notícias</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/doacoes">Doações</a>
-      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastros</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -51,13 +48,13 @@
     <div class="row" style="justify-content: center">
       <hr class="clearfix w-100 d-md-none pb-3">
       <div class="col-md-3 mb-md-0 mb-3">
-          <h5 class="text-uppercase">consectetur</h5>
+          <h5 class="text-uppercase">Contato</h5>
           <ul class="list-unstyled">
             <li>
               <a href="https://wego.here.com/directions/mix//Abrigo-dos-Velhinhos-de-Tubarao,-Rua-S%C3%A3o-Jo%C3%A3o-,-1125,-88704-100-Tubar%C3%A3o,-Brazil:e-eyJuYW1lIjoiQWJyaWdvIGRvcyBWZWxoaW5ob3MgZGUgVHViYXJhbyIsImFkZHJlc3MiOiJSdWEgU1x1MDBlM28gSm9cdTAwZTNvICwgMTEyNSwgVHViYXJcdTAwZTNvIChTYW50YSBDYXRhcmluYSkiLCJsYXRpdHVkZSI6LTI4LjQ3NDc2NjgwMDEwNiwibG9uZ2l0dWRlIjotNDkuMDMxOTgyODkyMDAyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjIwMDU3NzE3Njk2OTA5MH0=?map=-28.47477,-49.03198,15,normal&fb_locale=pt_BR"><p class="text-light">Endereço: Rua São João , 1125 8704-100 Tubarão (Santa Catarina)</p></a>
             </li>
             <li>
-              <p class="text-light">E-mail:asdasd@dgsg.com</p>
+              <p class="text-light">E-mail: abrigodosvelhinhostubarao@hotmail.com</p>
             </li>
             <li>
               <p class="text-light">Telefone:	(48) 3628-0351</p>
@@ -66,20 +63,22 @@
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
         <h5 class="text-uppercase">Redes Sociais</h5>
-        <div class="redsoc">
-          <a href="https://www.facebook.com/pages/Abrigo-dos-Velhinhos-de-Tubarao/200577176969090"><img class="card-img-top" src="{{ asset('img/facebook.png') }}" ></a>
+        <div class="side">
+          
+            <a href="https://www.facebook.com/pages/Abrigo-dos-Velhinhos-de-Tubarao/200577176969090"><img class="card-img-top redsoc" src="{{ asset('img/facebook.png') }}" ></a>
+          
+          
+           <a href="https://www.instagram.com/abrigotubarao/?hl=pt-br"><img class="card-img-top redsoc" src="{{ asset('img/instagram.png') }}"></a> 
+         
+         
+            <img class="card-img-top redsoc" src="{{ asset('img/whatsapp.png') }}">
+          
         </div>
-        <div class="redsoc">
-          <img class="card-img-top" src="{{ asset('img/instagram.png') }}">
-        </div>
-        <div class="redsoc">
-          <img class="card-img-top" src="{{ asset('img/whatsapp.png') }}">
-        </div>
-      </div>
     </div>
   </div>
   <div class="footer-copyright text-center py-3 bg-secondary text-light">© 2019 Copyright: 
     <a href="https://mdbootstrap.com/education/bootstrap/" class="text-light"> Fernando Murate®</a>
+  </div>
   </div>
 </footer>
 

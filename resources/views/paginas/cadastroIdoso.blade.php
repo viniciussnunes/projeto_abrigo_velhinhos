@@ -87,7 +87,7 @@
                               </div>
                             </div>
 
-      <button type="submit" class="btn btn-primary">Cadastrar</button>
+      <button type="submit" class="btn btn-primary botao-nargin">Cadastrar</button>
     </form>
 
 </main>

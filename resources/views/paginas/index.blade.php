@@ -54,24 +54,24 @@
   <div class="card">
     <img class="card-img-top" src="{{ asset('img/FundoPreto.jpg') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Fique atualizado</h5>
-      <p class="card-text">Fique por dentro de tudo que está acontecendo no Abrigo!</p>
+      <h5 class="card-title">Fique atualizado!</h5>
+      <p class="card-text">Fique por dentro de tudo que está acontecendo no Abrigo.</p>
       <a href="/noticias" class="btn btn-primary">Visitar</a>  
     </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="{{ asset('img/FundoVermelho.jpg') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-titleA">Doe</h5>
-      <p class="card-text">Nos ajude financeiramente para que possamos manter nosssas atividades!</p>
+      <h5 class="card-titleA">Doe!</h5>
+      <p class="card-text"> Ajude-nos financeiramente para que possamos manter nossas atividades.</p>
       <a href="/doacoes" class="btn btn-primary">Visitar</a>
     </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="{{ asset('img/FundoRosa.jpg') }}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Seja um voluntário</h5>
-      <p class="card-text">Estamos sempre precisando de pessoas para nos ajudar!</p>
+      <h5 class="card-title">Seja um voluntário!</h5>
+      <p class="card-text">Estamos sempre precisando de pessoas para nos ajudar.</p>
       <a href="/cadastroVoluntario" class="btn btn-primary">Visitar</a>    
     </div>
   </div>
