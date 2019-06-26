@@ -7,16 +7,12 @@
 <h2>Cadastre um Idoso</h2>
 
 <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
+      
+        <div class="form-group">
           <label for="inputEmail4">Nome Completo</label>
           <input type="text" class="form-control" name="idnome" placeholder="Nome">
         </div>
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Doenças crônicas?</label>
-          <input type="text" class="form-control" name="iddoenca" placeholder="Descreva">
-        </div>
-      </div>
+      
       <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Data de Nascimento</label>
@@ -30,8 +26,54 @@
               <option>Não</option>
             </select>
           </div>
+
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Tipo Sanguineo</label>
+            <select type="text" class="form-control" name="idsangue" placeholder="Tipo Sanguineo">
+              <option>...</option>
+              <option>A+</option>
+              <option>A-</option>
+              <option>B+</option>
+              <option>B-</option>
+              <option>AB+</option>
+              <option>AB-</option>
+              <option>O+</option>
+              <option>O-</option>
+            </select>
+          </div>
+
+          <div class="form-group col-md-6">
+          <label for="inputPassword4">Doenças crônicas?</label>
+          <input type="text" class="form-control" name="iddoenca" placeholder="Descreva">
         </div>
-      <h3>Responsável pelo Idoso</h3>
+      
+
+          <div class="form-group col-md-6">
+          <label for="inputPassword4">Observções sobre Alimentação</label>
+          <input type="text" class="form-control" name="idalimentacao" placeholder="Descreva">
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Observções sobre Medicação</label>
+          <input type="text" class="form-control" name="idmedicacao" placeholder="Descreva">
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Descreva sobre alguma Alergia</label>
+          <input type="text" class="form-control" name="idalergia" placeholder="Descreva">
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Observções em Geral</label>
+          <input type="text" class="form-control" name="idobsgeral" placeholder="Descreva">
+        </div>
+
+        </div>
+
+<!-- --######################################################################################################################## -->
+      
+      
+        <h3>Responsável pelo Idoso</h3>
       <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputEmail4">Nome Completo</label>
@@ -87,7 +129,7 @@
                               </div>
                             </div>
 
-      <button type="submit" class="btn btn-primary botao-nargin">Cadastrar</button>
+      <button type="submit" id="botaoIdoso" class="btn btn-primary botao-nargin">Cadastrar</button>
     </form>
 
 </main>
