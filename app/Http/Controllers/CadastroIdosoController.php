@@ -7,8 +7,22 @@ use App\Usuario;
 
 class CadastroIdosoController extends Controller
 {
-    public function cadastroIdoso()
+    public function index()
     {
         return view('paginas/cadastroIdoso');
     }
+    
+    public function cadastrar()
+    {
+
+        $dados = Request::post();
+        // dd($dados);
+        return view('paginas/cadastroIdoso');
+    }
+
+
+
+
+
+
 }

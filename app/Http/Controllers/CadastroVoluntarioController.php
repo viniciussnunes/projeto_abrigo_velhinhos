@@ -7,7 +7,7 @@ use App\Usuario;
 
 class CadastroVoluntarioController extends Controller
 {
-    public function cadastroVoluntario()
+    public function index()
     {
         return view('paginas/cadastroVoluntario');
     }

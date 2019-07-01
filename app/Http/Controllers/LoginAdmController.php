@@ -7,7 +7,7 @@ use App\Usuario;
 
 class LoginAdmController extends Controller
 {
-    public function loginAdm()
+    public function index()
     {
         return view('paginas/loginAdm');
     }

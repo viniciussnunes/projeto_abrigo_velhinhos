@@ -7,7 +7,7 @@ use App\Usuario;
 
 class HistoriaController extends Controller
 {
-    public function historia()
+    public function index()
     {
         return view('paginas/historia');
     }

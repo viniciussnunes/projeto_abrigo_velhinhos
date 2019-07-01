@@ -11,15 +11,16 @@
 |
 */
 
-// Route::get('/home', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 
-Route::get('/historia', 'HistoriaController@historia');
+Route::get('/historia', 'HistoriaController@index'); 
 
-Route::get('/noticias', 'NoticiasController@noticias');
+Route::get('/noticias', 'NoticiasController@index');
 
-Route::get('/cadastroIdoso', 'CadastroIdosoController@cadastroIdoso');
+Route::get('/cadastroIdoso', 'CadastroIdosoController@index');
 
-Route::get('/cadastroVoluntario', 'CadastroVoluntarioController@cadastroVoluntario');
+Route::get('/cadastroVoluntario', 'CadastroVoluntarioController@index');
 
-Route::get('/loginAdm', 'LoginAdmController@loginAdm');
+Route::get('/loginAdm', 'LoginAdmController@index');
+
+Route::post('/cadastrarIdoso', 'CadastroIdosoController@cadastrar');

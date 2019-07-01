@@ -7,7 +7,7 @@ use App\Usuario;
 
 class NoticiasController extends Controller
 {
-    public function noticias()
+    public function index()
     {
         return view('paginas/noticias');
     }
