@@ -15,7 +15,28 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="menu"> 
-    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" >
+        <li class="nav-item item-menu">
+          <a class="nav-link" href="/sobre">Sobre</a>
+        </li>
+        <li class="nav-item item-menu">
+          <a class="nav-link" href="/home">Home</a>
+        </li>
+        <li class="nav-item item-menu" id="nav-item-logo">
+          <img class="logo" src="{{ asset('img/logo/abrigologo.png') }}">
+        </li>
+        <li class="nav-item item-menu">
+          <a class="nav-link" href="/noticias">Notícias</a>
+        </li>
+        <li class="nav-item dropdown item-menu">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastros</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="/cadastroIdoso">Cadastro de Idoso</a>
+            <a class="dropdown-item" href="/cadastroVoluntario">Cadastro de Voluntário</a>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
