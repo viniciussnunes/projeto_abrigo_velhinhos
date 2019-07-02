@@ -6,9 +6,10 @@
 
 <h2>Cadastre um Idoso</h2>
 
-<form>
+
+<form action="/cadastrarIdoso" method="post">
       
-        <div class="form-group">
+      <div class="form-group">
           <label for="inputEmail4">Nome Completo</label>
           <input type="text" class="form-control" name="idnome" placeholder="Nome">
         </div>

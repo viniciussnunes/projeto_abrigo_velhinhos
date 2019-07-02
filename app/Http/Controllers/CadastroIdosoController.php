@@ -15,8 +15,10 @@ class CadastroIdosoController extends Controller
     public function cadastrar()
     {
 
+        // $dados = $this->clearInput(Input::get());
+
         $dados = Request::post();
-        // dd($dados);
+        dd($dados);
         return view('paginas/cadastroIdoso');
     }
 

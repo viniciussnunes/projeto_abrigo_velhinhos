@@ -11,4 +11,5 @@ class CadastroVoluntarioController extends Controller
     {
         return view('paginas/cadastroVoluntario');
     }
+    
 }
