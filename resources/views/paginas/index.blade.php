@@ -69,6 +69,20 @@
 </div>
 
 <!-- Parceiros -->
+<div class="container-fluid">
+  <h1 class="titulo-colaboradores"> Colaboradores </h1>
+</div>
+  <div>
+      <ul class="navbar-nav mr-auto" >
+        <li class="nav-item item-menu li-colaboradores" id="nav-item-logo">
+          <img class="logo logo-colaboradores" src="{{ asset('img/logo/abrigologo.png') }}">
+          <img class="logo logo-colaboradores" src="{{ asset('img/logo/abrigologo.png') }}">
+          <img class="logo logo-colaboradores" src="{{ asset('img/logo/abrigologo.png') }}">
+          <img class="logo logo-colaboradores" src="{{ asset('img/logo/abrigologo.png') }}">
+          <img class="logo logo-colaboradores" src="{{ asset('img/logo/abrigologo.png') }}">
+        </li>
+      </ul>
+  <div>
 
 
 

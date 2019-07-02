@@ -9,6 +9,7 @@ body {
     border-color: white;
 }
 
+
 /* Navbar */
 @media (max-width:991px) {
     #nav-item-logo { 
@@ -26,6 +27,7 @@ body {
     margin-left: 40px;
     margin-right: 40px;
 }
+
 
 /*Footer*/
 .logo-redes-sociais {
@@ -51,12 +53,14 @@ body {
     margin-right: 10px 
 }
 
+
 /* HOME */
 /* Carrossel */
 .carrossel-item>img { 
     width: 100%; 
     height: 450px; 
 }
+
 /*Card*/
 .card-home { 
     padding: 0 50px; 
@@ -70,9 +74,18 @@ body {
     text-align: center 
 }
 
-
-
-/* Parceiros */
+/* Colaboradores */
+.titulo-colaboradores {
+    border-top: 1px solid gray;
+    text-align: center;
+    padding-top: 50px 
+}
+.li-colaboradores {
+    margin: auto;
+}
+.logo-colaboradores {
+    margin: 80px
+}
 
 
 /* Noticias */
@@ -89,7 +102,6 @@ body {
 .margin-bot {
     margin-bottom: 50px
 }
-
 
 
 /*Botao cadastrar*/
