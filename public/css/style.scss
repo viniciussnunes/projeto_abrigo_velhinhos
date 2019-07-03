@@ -1,7 +1,8 @@
 /* GERAL */
 body { 
     margin: 0; 
-    padding: 0; 
+    padding: 0;
+    background-color: #d4d4d4; 
 }
 /* Card Deck */
 .card { 
@@ -103,4 +104,13 @@ body {
 /*Botao cadastrar*/
 .botao-nargin {
     margin-bottom: 50px
+}
+//##########SOBRE########//
+/*conteudo*/
+
+
+/*texto sobre*/
+#caixa{
+    width: 40px;
+
 }
