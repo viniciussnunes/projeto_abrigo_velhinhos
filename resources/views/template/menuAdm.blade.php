@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('/css/style.scss')}}">
-    <title>Abrigo Dos Velhinhos</title>
+    <title>Abrigo Dos Velhinhos - Administração</title>
 </head>
 <body>
 
@@ -18,25 +18,26 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto" >
         <li class="nav-item item-menu">
-          <a class="nav-link" href="/sobre">Sobre</a>
+          <a class="nav-link" href="/home">Ir para o Site</a>
         </li>
         <li class="nav-item item-menu">
-          <a class="nav-link" href="/home">Home</a>
+          <a class="nav-link" href="/publicacaoAdm">Fazer publicação</a>
         </li>
         <li class="nav-item item-menu" id="nav-item-logo">
           <img class="logo" src="{{ asset('img/logo/abrigologo.png') }}">
         </li>
         <li class="nav-item item-menu">
-          <a class="nav-link" href="/noticias">Notícias</a>
+          <a class="nav-link" href="/cadastroIdosoAdm">Registro de Idosos</a>
         </li>
-  
+        <li class="nav-item item-menu">
+          <a class="nav-link" href="/cadastroVoluntarioAdm">Registro de Voluntários</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-    @yield('content')    
+    @yield('contentAdm')    
 
 
 <script src="jquery-3.4.0.min.js"></script>
