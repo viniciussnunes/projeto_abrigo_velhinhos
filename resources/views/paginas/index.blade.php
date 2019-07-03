@@ -48,22 +48,19 @@
   <div class="card">
   <a href="/noticias"><img class="card-img-top" src="{{ asset('img/FundoPreto.jpg') }}" alt="Card image cap"></a>
     <div class="card-body">
-      <h5 class="card-title">Fique atualizado!</h5>
-      <p class="card-text">Fique por dentro de tudo que está acontecendo no Abrigo.</p>
+      <h5 class="card-title">Fique atualizado</h5>
     </div>
   </div>
   <div class="card">
-  <a href="/doacoes"><img class="card-img-top" src="{{ asset('img/FundoVermelho.jpg') }}" alt="Card image cap"></a>
+  <a href="https://pagseguro.uol.com.br/conteudo/link-de-pagamento/"><img class="card-img-top" src="{{ asset('img/FundoVermelho.jpg') }}" alt="Card image cap"></a>
     <div class="card-body">
-      <h5 class="card-titleA">Doe!</h5>
-      <p class="card-text"> Ajude-nos financeiramente para que possamos manter nossas atividades.</p>
+      <h5 class="card-titleA">Doe</h5>
     </div>
   </div>
   <div class="card">
   <a href="/cadastroVoluntario"><img class="card-img-top" src="{{ asset('img/FundoRosa.jpg') }}" alt="Card image cap"></a>
     <div class="card-body">
-      <h5 class="card-title">Seja um voluntário!</h5>
-      <p class="card-text">Estamos sempre precisando de pessoas para nos ajudar.</p>    
+      <h5 class="card-title">Seja um voluntário</h5>  
     </div>
   </div>
 </div>
