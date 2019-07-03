@@ -32,14 +32,12 @@
         <li class="nav-item item-menu">
           <a class="nav-link" href="/cadastroVoluntarioAdm">Registro de Voluntários</a>
         </li>
-  
-        </li>
       </ul>
     </div>
   </div>
 </nav>
 
-    @yield('content')    
+    @yield('contentAdm')    
 
 
 <script src="jquery-3.4.0.min.js"></script>

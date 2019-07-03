@@ -64,10 +64,14 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 100px;
-    border: 0px;
+    border: 0px solid #d4d4d4;
+    background-color: #d4d4d4; 
 }
 .card-home>div { 
-    text-align: center 
+    text-align: center;
+    background-color: #d4d4d4;
+    border: 0px solid #d4d4d4;
+    
 }
 
 /* Colaboradores */
@@ -81,22 +85,6 @@ body {
 }
 .logo-colaboradores {
     margin: 80px
-}
-
-
-/* Noticias */
-#div-noticias { 
-    margin-bottom: 50px; 
-    padding: 0 50px; 
-    width: 100%; 
-}
-.div-noticias { 
-    background-color: transparent; 
-    border: unset; 
-    text-align: center 
-}
-.margin-bot {
-    margin-bottom: 50px
 }
 
 
