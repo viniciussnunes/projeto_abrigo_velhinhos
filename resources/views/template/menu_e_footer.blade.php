@@ -43,35 +43,32 @@
 
     @yield('content')    
 
-<footer class="page-footer font-small bg-info pt-4 pad">
-  <div class="container-fluid div-footer">
+<!-- <footer class="page-footer font-small pt-4 pad"> -->
+<footer class="div-footer">
+  <div class="container text-secondary">
     <div class="col-md-3 mb-md-0 mb-3" id="contato">
-        <h5 class="text-uppercase">Contato</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="https://wego.here.com/directions/mix//Abrigo-dos-Velhinhos-de-Tubarao,-Rua-S%C3%A3o-Jo%C3%A3o-,-1125,-88704-100-Tubar%C3%A3o,-Brazil:e-eyJuYW1lIjoiQWJyaWdvIGRvcyBWZWxoaW5ob3MgZGUgVHViYXJhbyIsImFkZHJlc3MiOiJSdWEgU1x1MDBlM28gSm9cdTAwZTNvICwgMTEyNSwgVHViYXJcdTAwZTNvIChTYW50YSBDYXRhcmluYSkiLCJsYXRpdHVkZSI6LTI4LjQ3NDc2NjgwMDEwNiwibG9uZ2l0dWRlIjotNDkuMDMxOTgyODkyMDAyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjIwMDU3NzE3Njk2OTA5MH0=?map=-28.47477,-49.03198,15,normal&fb_locale=pt_BR"><p class="text-light">Endereço: Rua São João, 1125 8704-100 Tubarão (Santa Catarina)</p></a>
-          </li>
-          <li>
-            <p class="text-light">Telefone:	(48) 3628-0351</p>
-          </li>
-        </ul>
+        <p class="text-uppercase font-weight-bold">Contato</p>
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://wego.here.com/directions/mix//Abrigo-dos-Velhinhos-de-Tubarao,-Rua-S%C3%A3o-Jo%C3%A3o-,-1125,-88704-100-Tubar%C3%A3o,-Brazil:e-eyJuYW1lIjoiQWJyaWdvIGRvcyBWZWxoaW5ob3MgZGUgVHViYXJhbyIsImFkZHJlc3MiOiJSdWEgU1x1MDBlM28gSm9cdTAwZTNvICwgMTEyNSwgVHViYXJcdTAwZTNvIChTYW50YSBDYXRhcmluYSkiLCJsYXRpdHVkZSI6LTI4LjQ3NDc2NjgwMDEwNiwibG9uZ2l0dWRlIjotNDkuMDMxOTgyODkyMDAyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjIwMDU3NzE3Njk2OTA5MH0=?map=-28.47477,-49.03198,15,normal&fb_locale=pt_BR"><p class="text-secondary"><span class="font-weight-bold">Endereço:</span> Rua São João, 1125 8704-100 Tubarão (Santa Catarina)</p></a>
+        </li>
+        <li>
+          <p class="text-secondary"><span class="font-weight-bold">Telefone:</span> (48) 3628-0351</p>
+        </li>
+      </ul>
     </div>
     <div class="col-md-3 mb-md-0 mb-3" id="redes-sociais">
       <div class="titulo-redes-sociais">
-        <h5 class="text-uppercase">Redes Sociais</h5>
+        <p class="text-uppercase font-weight-bold">Redes Sociais</p>
       </div>
       <div class="side">
-        
         <a href="https://www.facebook.com/pages/Abrigo-dos-Velhinhos-de-Tubarao/200577176969090"><img class="card-img-top logo-redes-sociais" src="{{ asset('img/facebook.png') }}" ></a>
-        
-        <a href="https://www.instagram.com/abrigotubarao/?hl=pt-br"><img class="card-img-top logo-redes-sociais logo-rede-social" src="{{ asset('img/instagram.png') }}"></a>
-        
+        <a href="https://www.instagram.com/abrigotubarao/?hl=pt-br"><img class="card-img-top logo-redes-sociais logo-rede-social" src="{{ asset('img/instagram.png') }}"></a>        
       </div>
     </div>
-  </div>
-  <div class="footer-copyright text-center py-3 bg-secondary text-light">© 2019 Copyright: 
-    <a href="https://mdbootstrap.com/education/bootstrap/" class="text-light"> Fernando Murate®</a>
-  </div>
+    <!-- <div class="footer-copyright text-center py-3 bg-secondary text-light">© 2019 Copyright: 
+      <a href="https://mdbootstrap.com/education/bootstrap/" class="text-light"> Fernando Murate®</a>
+    </div> -->
   </div>
 </footer>
 
