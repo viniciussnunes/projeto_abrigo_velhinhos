@@ -83,23 +83,6 @@ body {
     margin: 80px
 }
 
-
-/* Noticias */
-#div-noticias { 
-    margin-bottom: 50px; 
-    padding: 0 50px; 
-    width: 100%; 
-}
-.div-noticias { 
-    background-color: transparent; 
-    border: unset; 
-    text-align: center 
-}
-.margin-bot {
-    margin-bottom: 50px
-}
-
-
 /*Botao cadastrar*/
 .botao-nargin {
     margin-bottom: 50px
@@ -107,4 +90,8 @@ body {
 //##############NOTICIAS############//
 .contnoticia{
     margin-top:20px;
+}
+.div-noticias{
+    margin: auto;
+    text-align: justify
 }
