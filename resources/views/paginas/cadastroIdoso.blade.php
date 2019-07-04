@@ -75,10 +75,16 @@
       
       
         <h3>Responsável pelo Idoso</h3>
+        
+        <div class="form-group">
+          <label for="inputEmail4">Nome Completo</label>
+          <input type="text" class="form-control" name="resnome" placeholder="Nome">
+        </div>
+
       <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">Nome Completo</label>
-                <input type="text" class="form-control" name="resnome" placeholder="Nome">
+                <label for="inputEmail4">CPF</label>
+                <input type="text" class="form-control" name="rescpf" placeholder="CPF">
               </div>
               <div class="form-group col-md-6">
                 <label for="inputPassword4">Telefone</label>

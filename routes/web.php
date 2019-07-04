@@ -24,3 +24,9 @@ Route::get('/cadastroVoluntario', 'CadastroVoluntarioController@index');
 Route::get('/loginAdm', 'LoginAdmController@index');
 
 Route::post('/cadastrarIdoso', 'CadastroIdosoController@cadastrar');
+
+Route::get('/cadastroVoluntarioAdm', 'CadastroVoluntarioAdmController@index');
+
+Route::get('/cadastroIdosoAdm', 'CadastroIdosoAdmController@index');
+
+Route::get('/publicacaoAdm', 'PublicacaoAdmController@index');
