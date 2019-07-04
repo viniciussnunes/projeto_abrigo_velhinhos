@@ -1,7 +1,6 @@
-@extends('template.menuAdm.blade.php')
+@extends('template.menuAdm')
 
 @section('contentAdm')
-
 
 
 @endsection
