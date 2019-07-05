@@ -3,7 +3,7 @@
 @section('contentAdm')
 
 <div class="container tabela text-center" >
-    <h1>Registro de Voluntários</h1>
+    <h1>Registro de Idosos</h1>
     <h6>Esses são os registros de todas as pessoas que desejam morar no abrigo</h6>
 <table class="table table-dark tabela" style="border-radius:10px">
   <thead>
@@ -12,6 +12,7 @@
       <th scope="col">Nome Completo</th>
       <th scope="col">Data de Nascimento</th>
       <th scope="col">Aposentado</th>
+      <th scope="col">Nome do Responsável/th>
       <th scope="col">Tipo Sanguineo</th>
       <th scope="col">Doenças crônicas</th>
       <th scope="col">Alimentação</th>
