@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #d4d4d4; 
 }
+.body-branco{
+    background-color: white
+}
 /* Card Deck */
 .card { 
     background-color:white;
@@ -58,6 +61,7 @@ body {
     height: 550px; 
 }
 
+
 /*Card*/
 .card-home { 
     padding: 0 50px; 
@@ -65,12 +69,14 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 100px;
-    border: 0px;
+    border: 0px solid #d4d4d4;
+    background-color: #d4d4d4; 
 }
 .card-home>div { 
-    text-align: center 
+    text-align: center;
+    background-color: #d4d4d4;
+    border: 0px solid #d4d4d4;
 }
-
 /* Colaboradores */
 .titulo-colaboradores {
     border-top: 1px solid gray;
