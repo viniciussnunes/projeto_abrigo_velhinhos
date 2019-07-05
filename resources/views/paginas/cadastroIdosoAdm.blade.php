@@ -12,7 +12,7 @@
       <th scope="col">Nome Completo</th>
       <th scope="col">Data de Nascimento</th>
       <th scope="col">Aposentado</th>
-      <th scope="col">Nome do Responsável/th>
+      <th scope="col">Nome do Responsável</th>
       <th scope="col">Tipo Sanguineo</th>
       <th scope="col">Doenças crônicas</th>
       <th scope="col">Alimentação</th>
