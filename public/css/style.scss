@@ -94,6 +94,11 @@ body {
 }
 
 
+/*Botao cadastrar*/
+.botao-nargin {
+    margin-bottom: 50px
+}
+
 /*ADMINISTRAÇÃO*/ 
 /*Login Adm*/ 
 
@@ -103,4 +108,10 @@ body {
     background-color: lightgray; 
     border-radius: 10px; 
     padding: 30px
+}
+
+/*Registros*/
+
+.tabela{
+    margin-top: 40px
 }
