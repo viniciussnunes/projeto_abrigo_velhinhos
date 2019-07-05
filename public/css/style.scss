@@ -54,7 +54,7 @@ body {
 /* Carrossel */
 .carrossel-item>img { 
     width: 100%; 
-    height: 450px; 
+    height: 550px; 
 }
 
 /*Card*/
@@ -87,6 +87,8 @@ body {
 .botao-nargin {
     margin-bottom: 50px
 }
+
+
 //##############NOTICIAS############//
 .contnoticia{
     margin-top:20px;
@@ -94,4 +96,23 @@ body {
 .div-noticias{
     margin: auto;
     text-align: justify
+}
+
+
+/*ADMINISTRAÇÃO*/ 
+/*Login Adm*/ 
+
+.formLogin-adm {
+    width: 500px; 
+    margin-top: 100px; 
+    background-color: lightgray; 
+    border-radius: 10px; 
+    padding: 30px
+}
+
+/*Registros*/
+
+.tabela{
+    margin-top: 40px
+
 }
