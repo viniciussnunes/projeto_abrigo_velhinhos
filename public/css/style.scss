@@ -1,21 +1,4 @@
-/* GERAL */
-<<<<<<< HEAD
-body { 
-    margin: 0; 
-    padding: 0;
-    background-color: #d4d4d4; 
-}
-.body-branco{
-    background-color: white
-}
-/* Card Deck */
-.card { 
-    background-color:white;
-    border-color: white;
-}
-=======
 body { margin: 0; padding: 0; background-color: #f8f9fa; }
->>>>>>> Fernando - 08/07/2019
 
 /* Card Deck */
 .card { background-color:white; border-color: white;}
@@ -35,94 +18,13 @@ body { margin: 0; padding: 0; background-color: #f8f9fa; }
 .logo-rede-social { margin-right: 10px; }
 
 /* HOME */
-.content { width: 1300px; margin: auto;}
+.content { width: 1100px; margin: auto;}
 
 /* Carrossel */
-<<<<<<< HEAD
-.carrossel-item>img { 
-    width: 100%; 
-    height: 550px; 
-}
-=======
 .carrossel-item>img { width: 100%; height: 450px; }
->>>>>>> Fernando - 08/07/2019
 
 
 /*Card*/
-<<<<<<< HEAD
-.card-home { 
-    padding: 0 50px; 
-    margin-bottom: 50px; 
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 100px;
-    border: 0px solid #d4d4d4;
-    background-color: #d4d4d4; 
-}
-.card-home>div { 
-    text-align: center;
-    background-color: #d4d4d4;
-    border: 0px solid #d4d4d4;
-}
-/* Colaboradores */
-.titulo-colaboradores {
-    border-top: 1px solid gray;
-    text-align: center;
-    padding-top: 50px 
-}
-.li-colaboradores {
-    margin: auto;
-}
-.logo-colaboradores {
-    margin: 80px
-}
-
-/*Botao cadastrar*/
-.botao-nargin {
-    margin-bottom: 50px
-}
-
-
-//##############NOTICIAS############//
-.contnoticia{
-    margin-top:20px;
-}
-.div-noticias{
-    margin: auto;
-    text-align: justify
-}
-//##########SOBRE########//
-
-/*texto sobre*/
-#caixa{
-    width: 40px;
-}
-#texto-abrigo{
-    width: 450px;
-    background-color: white; 
-    opacity: 0.7; 
-    padding: 3px; 
-    color: black;
-    text-align: justify
-}
-
-
-/*ADMINISTRAÇÃO*/ 
-/*Login Adm*/ 
-.formLogin-adm {
-    width: 500px; 
-    margin-top: 100px; 
-    background-color: lightgray; 
-    border-radius: 10px; 
-    padding: 30px
-}
-
-/*Registros*/
-.tabela{
-    margin-top: 40px
-
-}
-=======
 .card-home { padding: 0 50px; margin-bottom: 50px; margin-right: 0px; margin-left: 0px; margin-top: 100px; border: 0px; }
 .card-home>div { text-align: center; }
 
@@ -136,4 +38,3 @@ body { margin: 0; padding: 0; background-color: #f8f9fa; }
 .div-noticias { background-color: transparent; border: unset; text-align: center; }
 .margin-bot { margin-bottom: 50px; }
 
->>>>>>> Fernando - 08/07/2019
