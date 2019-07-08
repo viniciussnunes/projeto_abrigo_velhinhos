@@ -64,11 +64,3 @@ else {
     limpa_formulário_cep();
 }
 };
-
-import Swal from 'sweetalert2'
-document.getElementById('botaoIdoso')
-Swal.fire(
-    'Good job!',
-    'You clicked the button!',
-    'success'
-  )
