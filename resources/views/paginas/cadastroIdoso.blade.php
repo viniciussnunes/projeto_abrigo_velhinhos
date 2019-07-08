@@ -1,139 +1,159 @@
 @extends('template.menu_e_footer')
 
+@section('js')
+  <script src="{{asset('/js/cadastroIdoso.js')}}"></script>
+  {{-- <script src="{{asset('/js/cep.js')}}"></script> --}}
+  <script src="{{asset('/js/jquery.mask.min.js')}}"></script>
+  <script src="{{asset('/js/sweetalert2.min.js')}}"></script>
+@endsection
+
+@section('css')
+  <link rel="stylesheet" href="{{asset('/css/cadastroIdoso.css')}}">
+@endsection
+
 @section('content')
 
-<main role="main" class="container">
+  <h2>Cadastre um Idoso</h2>
 
-<h2>Cadastre um Idoso</h2>
+  <form action="/cadastroIdoso/store" method="get" id="formCadIdoso">
+    @csrf
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="idnome">Nome Completo</label>
+        <input id="nomeIdoso" type="text" class="form-control" name="idnome" required>
+      </div>
+      <div class="form-group col-md-3">
+        <label for="idnasci">Data de Nascimento</label>
+        <input id="dataNasc" type="text" class="form-control data" name="idnasci" placeholder="DD/MM/AAAA">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="idaposentado">Aposentado</label>
+        <select id="seAposentado" class="form-control" name="idaposentado">
+          <option value="" hidden>Selecione...</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+      </div>
+      {{-- <div class="form-group col-md-3">
+        <label for="tipoSangue">Tipo Sanguíneo</label>
+        <select id="tipoSanguineo" class="form-control" name="tipoSangue">
+          <option>Selecione...</option>
+          <option>A+</option>
+          <option>A-</option>
+          <option>B+</option>
+          <option>B-</option>
+          <option>AB+</option>
+          <option>AB-</option>
+          <option>O+</option>
+          <option>O-</option>
+        </select>
+      </div> --}}
+    </div>
 
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="iddoenca">Doenças crônicas?</label>
+        <textarea rows="4" cols="50" class="form-control" name="iddoenca" form="formCadIdoso" placeholder="Descreva..."></textarea>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="idalimentacao">Restrições sobre alimentação?</label>
+        <textarea rows="4" cols="50" class="form-control" name="idalimentacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="idmedicacao">Utiliza medicação?</label>
+        <textarea rows="4" cols="50" class="form-control" name="idmedicacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="idalergia">Possui alergia?</label>
+        <textarea rows="4" cols="50" class="form-control" name="idalergia" form="formCadIdoso" placeholder="Descreva..."></textarea>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="idobsgeral">Outras observações</label>
+        <textarea rows="4" cols="50" class="form-control" name="idobsgeral" form="formCadIdoso" placeholder="Descreva..."></textarea>
+      </div>  
+    </div>     
+    <h3>Responsável pelo Idoso</h3>
 
-<form action="/cadastrarIdoso" method="post">
-      
-      <div class="form-group">
-          <label for="inputEmail4">Nome Completo</label>
-          <input type="text" class="form-control" name="idnome" placeholder="Nome">
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="resnome">Nome Completo</label>
+        <input type="text" class="form-control" name="resnome">
+      </div>
+      <div class="form-group col-md-2">
+        <label for="resdate">Data de Nascimento</label>
+        <input type="text" class="form-control data" name="resdate" placeholder="DD/MM/AAAA">
+      </div>
+      <div class="form-group col-md-2">
+        <label for="restelefone">Telefone fixo</label>
+        <input type="text" class="form-control ddd_tel" name="restelefone" placeholder="(__) ____-____">
+      </div>
+      <div class="form-group col-md-2">
+        <label for="restelefone">Celular</label>
+        <input type="text" class="form-control ddd_cel" name="restelefone" placeholder="(__) _.____-____">
+      </div>
+      <div class="form-group col-md-2">
+        <label id="zapLabel">Whatsapp</label>
+        {{-- <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="sim" id="whatsapp">
+        </div> --}}
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="whatsapp" id="zapSim" value="sim">
+          <label class="form-check-label" for="exampleRadios1">
+            Sim
+          </label>
         </div>
-      
-      <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Data de Nascimento</label>
-            <input type="date" class="form-control" name="idnasci" placeholder="Data">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Aposentado</label>
-            <select type="text" class="form-control" name="idaposentado" placeholder="Aposentado">
-              <option>...</option>
-              <option>Sim</option>
-              <option>Não</option>
-            </select>
-          </div>
-
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Tipo Sanguineo</label>
-            <select type="text" class="form-control" name="idsangue" placeholder="Tipo Sanguineo">
-              <option>...</option>
-              <option>A+</option>
-              <option>A-</option>
-              <option>B+</option>
-              <option>B-</option>
-              <option>AB+</option>
-              <option>AB-</option>
-              <option>O+</option>
-              <option>O-</option>
-            </select>
-          </div>
-
-          <div class="form-group col-md-6">
-          <label for="inputPassword4">Doenças crônicas?</label>
-          <input type="text" class="form-control" name="iddoenca" placeholder="Descreva">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="whatsapp" id="zapNao" value="nao" checked>
+          <label class="form-check-label" for="exampleRadios2">
+            Não
+          </label>
         </div>
-      
+      </div>  
+    </div>
+    
+    <div class="form-row">
+      <div class="form-group col-md-3">
+        <label for="resemail">E-mail</label>
+        <input type="email" class="form-control" name="resemail">
+      </div>
+      <div class="form-group col-md-2">
+        <label for="resparente">Grau de Parentesco</label>
+        <input type="text" class="form-control" name="resparente">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="rescidade">Cidade</label>
+        <input type="text" class="form-control" name="rescidade" id="rescidade">
+      </div>
+    </div>
+    
+    {{-- <div class="form-group col-md-2">
+      <label for="rescep">CEP</label>
+      <input type="text" class="form-control cep" name="rescep" onblur="pesquisacep(this.value);">
+    </div> --}}
+    {{-- <div class="form-row">
+      <div class="form-group col-md-1">
+        <label for="resnumero">Número</label>
+        <input type="number" class="form-control" name="resnumero" placeholder="Número">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="resrua">Rua</label>
+        <input type="text" class="form-control" name="resrua" id="resrua">
+      </div>
+    </div>
 
-          <div class="form-group col-md-6">
-          <label for="inputPassword4">Observções sobre Alimentação</label>
-          <input type="text" class="form-control" name="idalimentacao" placeholder="Descreva">
-        </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="resbairro">Bairro</label>
+        <input type="text" class="form-control" name="resbairro" id="resbairro">
+      </div>
 
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Observções sobre Medicação</label>
-          <input type="text" class="form-control" name="idmedicacao" placeholder="Descreva">
-        </div>
+    </div> --}}
 
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Descreva sobre alguma Alergia</label>
-          <input type="text" class="form-control" name="idalergia" placeholder="Descreva">
-        </div>
-
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Observções em Geral</label>
-          <input type="text" class="form-control" name="idobsgeral" placeholder="Descreva">
-        </div>
-
-        </div>
-
-<!-- --######################################################################################################################## -->
-      
-      
-        <h3>Responsável pelo Idoso</h3>
-      <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Nome Completo</label>
-                <input type="text" class="form-control" name="resnome" placeholder="Nome">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Telefone</label>
-                <input type="text" class="form-control" name="restelefone" placeholder="Telefone">
-              </div>
-            </div>
-
-            <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Data de Nascimento</label>
-                    <input type="date" class="form-control" name="resdate" placeholder="Data de Nascimento">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">E-mail</label>
-                    <input type="text" class="form-control" name="resemail" placeholder="E-mail">
-                  </div>
-                </div>
-
-                <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputEmail4">Grau de Parentesco</label>
-                        <input type="text" class="form-control" name="resparente" placeholder="Nome">
-                      </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputPassword4">CEP</label>
-                        <input type="number" class="form-control" name="rescep" placeholder="CEP" onblur="pesquisacep(this.value);">
-                      </div>
-                    </div>
-
-                    <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputEmail4">Número</label>
-                            <input type="number" class="form-control" name="resnumero" placeholder="Número">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <label for="inputPassword4">Rua</label>
-                            <input type="text" class="form-control" name="resrua" id="resrua" placeholder="Rua">
-                          </div>
-                        </div>
-
-                        <div class="form-row">
-                              <div class="form-group col-md-6">
-                                <label for="inputEmail4">Bairro</label>
-                                <input type="text" class="form-control" name="resbairro" id="resbairro" placeholder="Bairro">
-                              </div>
-                              <div class="form-group col-md-6">
-                                <label for="inputPassword4">Cidade</label>
-                                <input type="text" class="form-control" name="rescidade" id="rescidade" placeholder="Cidade">
-                              </div>
-                            </div>
-
-      <button type="submit" id="botaoIdoso" class="btn btn-primary botao-nargin">Cadastrar</button>
-    </form>
-
-</main>
+    <button type="submit" id="botaoIdoso" class="btn btn-primary">Cadastrar</button>
+    <button type="button" class="btn btn-danger" onclick="window.location='/home'">Cancelar</button>
+    <button type="button" id="testeSwall" class="btn btn-primary">Swall</button>
+    
+  </form>
 
 
-@endsection
+  @endsection
