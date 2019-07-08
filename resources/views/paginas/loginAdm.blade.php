@@ -2,22 +2,20 @@
 
 @section('contentLogin')
 
-<form class="container align-content-center formLogin-adm" action="/publicacaoAdm">
-  <div>
-    <h1 class="text-center" style="margin-bottom: 40px">Login Administrador</h1>
-  </div>    
-  <div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">E-mail</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira seu E-mail">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Senha</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Insira sua Senha">
-    </div>
-    <button type="submit" class="btn btn-primary">Entrar</button>
-    <a class="btn btn-secondary" href="/home">Voltar para o Site</a>
-  </div>
-</form>
+<div class="text-center login-card">
+  <form class="form-signin" action="/publicacaoAdm">
+    <img class="mb-4" src="{{asset('img/logo/abrigologo2.png')}}" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Login Administrador</h1>
+
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" autofocus="">
+
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit" style="background-color: #68c7e8">Entrar</button>
+    <a class="btn btn-lg btn-secondary btn-block" href="/home" style="background-color: #212529">Voltar para o Site</a>
+  </form>
+</div>
 
 @endsection
