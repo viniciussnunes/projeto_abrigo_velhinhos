@@ -2,7 +2,6 @@
 
 @section('content')
 
-<<<<<<< HEAD
 <div class="container">
                 <div class="bd-example">
                   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -52,30 +51,6 @@
           </div>
           <div class="barra container"></div>
           <div class="text-center"><h2>Colaboradores</h2></div>
-      
-=======
-<!-- CARD -->
-<div class="card-deck card-home" >
-  <div class="card">
-  <a href="/noticias"><img class="card-img-top" src="{{ asset('img/FundoPreto.jpg') }}" alt="Card image cap"></a>
-    <div class="card-body">
-      <h5 class="card-title">Fique atualizado</h5>
-    </div>
-  </div>
-  <div class="card">
-  <a href="https://pagseguro.uol.com.br/conteudo/link-de-pagamento/"><img class="card-img-top" src="{{ asset('img/FundoVermelho.jpg') }}" alt="Card image cap"></a>
-    <div class="card-body">
-      <h5 class="card-titleA">Doe</h5>
-    </div>
-  </div>
-  <div class="card">
-  <a href="/cadastroVoluntario"><img class="card-img-top" src="{{ asset('img/FundoRosa.jpg') }}" alt="Card image cap"></a>
-    <div class="card-body">
-      <h5 class="card-title">Seja um voluntário</h5>  
-    </div>
-  </div>
-</div>
->>>>>>> 4d277e97f8c3ca816d8326849b6eaa5b4cce17b1
 
 
   @endsection  

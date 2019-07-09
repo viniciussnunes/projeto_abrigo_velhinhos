@@ -2,7 +2,7 @@
 
 @section('contentAdm')
 
-<div class="container tabela text-center" >
+<div class="container tabela text-center" style="width:1100px; margin-top: 40px">
     <h1>Registro de Idosos</h1>
     <h6>Esses são os registros de todas as pessoas que desejam morar no abrigo</h6>
 <table class="table table-dark tabela" style="border-radius:10px">
@@ -27,6 +27,7 @@
      <td style="border: 1px solid gray">Gustavo Pacheco Gonzaga</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">10/07/2001</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">N</td style="border: 1px solid gray">
+      <td style="border: 1px solid gray">Josevaldo</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">AB+</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">Sim, ele possui um problema cardíaco</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">Ele come de tudo, só não gosta quando não tem comida</td style="border: 1px solid gray">
@@ -39,6 +40,7 @@
       <td style="border: 1px solid gray">Gustavo Pacheco Gonzaga</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">10/07/2001</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">N</td style="border: 1px solid gray">
+      <td style="border: 1px solid gray">Josevaldo</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">AB+</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">Sim, ele possui um problema cardíaco</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">Ele come de tudo, só não gosta quando não tem comida</td style="border: 1px solid gray">
@@ -51,6 +53,7 @@
       <td style="border: 1px solid gray">Gustavo Pacheco Gonzaga</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">10/07/2001</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">N</td style="border: 1px solid gray">
+      <td style="border: 1px solid gray">Josevaldo</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">AB+</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">Sim, ele possui um problema cardíaco</td style="border: 1px solid gray">
       <td style="border: 1px solid gray">Ele come de tudo, só não gosta quando não tem comida</td style="border: 1px solid gray">

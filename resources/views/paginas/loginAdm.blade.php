@@ -2,8 +2,8 @@
 
 @section('contentLogin')
 
-<div class="text-center login-card">
-  <form class="form-signin" action="/publicacaoAdm">
+<div class="text-center login-card" style="display: initial">
+  <form class="form-signin" action="/publicacaoAdm" style=" padding-top:60px">
     <img class="mb-4" src="{{asset('img/logo/abrigologo2.png')}}" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Login Administrador</h1>
 
