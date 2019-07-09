@@ -10,32 +10,32 @@
 </head>
 <body  class="body-branco">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="menu"> 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto" >
-        <li class="nav-item item-menu">
-          <a class="nav-link" href="/home">Ir para o Site</a>
-        </li>
-        <li class="nav-item item-menu">
-          <a class="nav-link" href="/publicacaoAdm">Fazer publicação</a>
-        </li>
-        <li class="nav-item item-menu" id="nav-item-logo">
-          <img class="logo" src="{{ asset('img/logo/abrigologo.png') }}">
-        </li>
-        <li class="nav-item item-menu">
-          <a class="nav-link" href="/cadastroIdosoAdm">Registro de Idosos</a>
-        </li>
-        <li class="nav-item item-menu">
-          <a class="nav-link" href="/cadastroVoluntarioAdm">Registro de Voluntários</a>
-        </li>
-      </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="menu">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item item-menu">
+              <a style="margin:0;"; class="nav-link-meio" href="/home">Voltar para o Site</a>
+          </li>
+          <li class="nav-item item-menu">
+            <a class="nav-link-meio" style="margin:0px 80px 0px 60px;" href="/publicacaoAdm">Fazer publicação</a>
+          </li>
+          <li class="nav-item item-menu" id="nav-item-logo">
+            <a href="/home"><img class="logo" src="{{ asset('img/logo/abrigologo.png') }}"></a>
+          </li>
+          <li class="nav-item item-menu">
+            <a class="nav-link-meio" style="margin:0px 0px 0px 60px;" href="/cadastroIdosoAdm">Registro de Idosos</a>
+          </li>
+          <li class="nav-item item-menu">
+            <a class="nav-link-meio" style="margin:0px 0px 0px 60px;" href="/cadastroVoluntarioAdm">Registro de Voluntários</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
     @yield('contentAdm')    
 

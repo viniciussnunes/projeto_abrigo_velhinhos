@@ -45,9 +45,9 @@
                 </div>
 <!-- ########################ICONES-MEIO###################### -->
           <div id="div-icones">
-              <div class="icones-home"><a href="google.com"><img src="{{ asset('img/I.png') }}" alt=""></a><p>Fique atualizado</p></div>
-              <div id="icone-center" class="icones-home"><a href="google.com"><img src="{{ asset('img/doe.png') }}" alt=""></a><p>Doe</p></div>
-              <div class="icones-home"><a href="google.com"><img src="{{ asset('img/voluntary.png') }}" alt=""></a><p>Seja um voluntario</p></div>
+              <div class="icones-home"><a href="/noticias"><img src="{{ asset('img/I.png') }}" alt=""></a><p>Fique atualizado</p></div>
+              <div id="icone-center" class="icones-home"><a href="#"><img src="{{ asset('img/doe.png') }}" alt=""></a><p>Doe</p></div>
+              <div class="icones-home"><a href="/cadastroVoluntario"><img src="{{ asset('img/voluntary.png') }}" alt=""></a><p>Seja um voluntario</p></div>
           </div>
           <div class="barra container"></div>
           <div class="text-center"><h2>Colaboradores</h2></div>

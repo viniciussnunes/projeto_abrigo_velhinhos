@@ -15,7 +15,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +31,7 @@
             <a class="nav-link-meio" style="margin:0px 80px 0px 60px;" href="/home">Home</a>
           </li>
           <li class="nav-item item-menu" id="nav-item-logo">
-            <img class="logo" src="{{ asset('img/logo/abrigologo.png') }}">
+            <a href="/home"><img class="logo" src="{{ asset('img/logo/abrigologo.png') }}"></a>
           </li>
           <li class="nav-item item-menu">
             <a class="nav-link-meio" style="margin:0px 60px 0px 80px;" href="/noticias">Notícias</a>

@@ -2,9 +2,8 @@
 
 @section('content')
 
-
         <div class="container" >
-            <div class="card text-white" style="margin-bottom:100px">
+            <div class="card text-white" style="margin-bottom:100px;">
                 <img src="{{ asset('img/image.jpg') }}" class="img-sobre" alt="...">
                 <div class="card-img-overlay">
                     <div id="texto-abrigo">
