@@ -11,7 +11,7 @@
 |
 */
 ## HOME
-Route::get('/home', 'HomeController@index');
+Route::get('/homer', 'HomerController@index');
 
 ## CADASTRO IDOSO
 Route::get('/cadastroIdoso', 'CadastroIdosoController@index');
@@ -36,3 +36,8 @@ Route::get('/cadastroVoluntarioAdm', 'CadastroVoluntarioAdmController@index');
 Route::get('/cadastroIdosoAdm', 'CadastroIdosoAdmController@index');
 
 Route::get('/publicacaoAdm', 'PublicacaoAdmController@index');
+
+
+
+Auth::routes();
+Route::get('/home', 'HomeController@index'); 
