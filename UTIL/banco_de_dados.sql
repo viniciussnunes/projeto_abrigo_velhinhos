@@ -3,6 +3,7 @@ SQLyog Community v13.1.4  (64 bit)
 MySQL - 10.1.40-MariaDB : Database - bd_asilo
 *********************************************************************
 */
+START transaction;
 
 /*!40101 SET NAMES utf8 */;
 
@@ -224,3 +225,5 @@ insert  into `tipo_pessoa`(`id_tipo_pessoa`,`descricao`) values
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+commit

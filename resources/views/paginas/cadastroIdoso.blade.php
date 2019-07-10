@@ -13,6 +13,7 @@
 
 @section('content')
 
+<div class="container">
   <h2>Cadastre um Idoso</h2>
 
   <form action="/cadastroIdoso/store" method="get" id="formCadIdoso">
@@ -154,5 +155,5 @@
     
   </form>
 
-
+  </div>
   @endsection
