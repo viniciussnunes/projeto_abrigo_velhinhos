@@ -2,9 +2,6 @@ Criar banco de dados manualmente no phpMyAdmin
 nome: bd_asilo
 charset: utf8_general_ci (fica depois do nome)
 
-Execute, depois vá em importar, selecione o arquivo banco_asilo_v1.0.sql e execute.
+Execute, depois vï¿½ em importar, selecione o arquivo banco_asilo_v1.0.sql e execute.
 
 Para startar o sevidor do Laravel: php artisan serve
-
-
-
