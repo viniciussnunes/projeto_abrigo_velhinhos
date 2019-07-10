@@ -19,16 +19,16 @@
     @csrf
     <div class="form-row">
       <div class="form-group col-md-4">
-        <label for="idnome">Nome Completo</label>
-        <input id="nomeIdoso" type="text" class="form-control" name="idnome" required>
+        <label for="nomeIdoso">Nome Completo</label>
+        <input id="nomeIdoso" type="text" class="form-control" name="nomeIdoso" required>
       </div>
       <div class="form-group col-md-3">
-        <label for="idnasci">Data de Nascimento</label>
-        <input id="dataNasc" type="text" class="form-control data" name="idnasci" placeholder="DD/MM/AAAA">
+        <label for="dataNascIdoso">Data de Nascimento</label>
+        <input id="dataNascIdoso" type="text" class="form-control data" name="dataNascIdoso" placeholder="DD/MM/AAAA">
       </div>
       <div class="form-group col-md-3">
-        <label for="idaposentado">Aposentado</label>
-        <select id="seAposentado" class="form-control" name="idaposentado">
+        <label for="seAposentado">Aposentado</label>
+        <select id="seAposentado" class="form-control" name="seAposentado">
           <option value="" hidden>Selecione...</option>
           <option value="sim">Sim</option>
           <option value="nao">Não</option>
@@ -52,44 +52,44 @@
 
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="iddoenca">Doenças crônicas?</label>
-        <textarea rows="4" cols="50" class="form-control" name="iddoenca" form="formCadIdoso" placeholder="Descreva..."></textarea>
+        <label for="doenca">Doenças crônicas?</label>
+        <textarea id="doenca" rows="4" cols="50" class="form-control" name="doenca" form="formCadIdoso" placeholder="Descreva..."></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="idalimentacao">Restrições sobre alimentação?</label>
-        <textarea rows="4" cols="50" class="form-control" name="idalimentacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
+        <label for="alimentacao">Restrições sobre alimentação?</label>
+        <textarea id="alimentacao" rows="4" cols="50" class="form-control" name="alimentacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="idmedicacao">Utiliza medicação?</label>
-        <textarea rows="4" cols="50" class="form-control" name="idmedicacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
+        <label for="medicacao">Utiliza medicação?</label>
+        <textarea id="medicacao" rows="4" cols="50" class="form-control" name="medicacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="idalergia">Possui alergia?</label>
-        <textarea rows="4" cols="50" class="form-control" name="idalergia" form="formCadIdoso" placeholder="Descreva..."></textarea>
+        <label for="alergia">Possui alergia?</label>
+        <textarea id="alergia" rows="4" cols="50" class="form-control" name="alergia" form="formCadIdoso" placeholder="Descreva..."></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="idobsgeral">Outras observações</label>
-        <textarea rows="4" cols="50" class="form-control" name="idobsgeral" form="formCadIdoso" placeholder="Descreva..."></textarea>
+        <label for="observacao">Outras observações</label>
+        <textarea id="observacao" rows="4" cols="50" class="form-control" name="observacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
       </div>  
     </div>     
     <h3>Responsável pelo Idoso</h3>
 
     <div class="form-row">
       <div class="form-group col-md-4">
-        <label for="resnome">Nome Completo</label>
-        <input type="text" class="form-control" name="resnome">
+        <label for="nomeResponsavel">Nome Completo</label>
+        <input id="nomeResponsavel" type="text" class="form-control" name="nomeResponsavel">
       </div>
       <div class="form-group col-md-2">
-        <label for="resdate">Data de Nascimento</label>
-        <input type="text" class="form-control data" name="resdate" placeholder="DD/MM/AAAA">
+        <label for="dataNascResposnavel">Data de Nascimento</label>
+        <input id="dataNascResposnavel" type="text" class="form-control data" name="dataNascResposnavel" placeholder="DD/MM/AAAA">
       </div>
       <div class="form-group col-md-2">
-        <label for="restelefone">Telefone fixo</label>
-        <input type="text" class="form-control ddd_tel" name="restelefone" placeholder="(__) ____-____">
+        <label for="telFixo">Telefone fixo</label>
+        <input id="telFixo" type="text" class="form-control ddd_tel" name="telFixo" placeholder="(__) ____-____">
       </div>
       <div class="form-group col-md-2">
-        <label for="restelefone">Celular</label>
-        <input type="text" class="form-control ddd_cel" name="restelefone" placeholder="(__) _.____-____">
+        <label for="telCel">Celular</label>
+        <input id="telCel" type="text" class="form-control ddd_cel" name="telCel" placeholder="(__) _.____-____">
       </div>
       <div class="form-group col-md-2">
         <label id="zapLabel">Whatsapp</label>
@@ -110,19 +110,18 @@
         </div>
       </div>  
     </div>
-    
     <div class="form-row">
       <div class="form-group col-md-3">
-        <label for="resemail">E-mail</label>
-        <input type="email" class="form-control" name="resemail">
+        <label for="email">E-mail</label>
+        <input id="email" type="email" class="form-control" name="email">
       </div>
       <div class="form-group col-md-2">
-        <label for="resparente">Grau de Parentesco</label>
-        <input type="text" class="form-control" name="resparente">
+        <label for="parentesco">Grau de Parentesco</label>
+        <input id="parentesco" type="text" class="form-control" name="parentesco">
       </div>
       <div class="form-group col-md-3">
-        <label for="rescidade">Cidade</label>
-        <input type="text" class="form-control" name="rescidade" id="rescidade">
+        <label for="cidade">Cidade</label>
+        <input id="cidade" type="text" class="form-control" name="cidade">
       </div>
     </div>
     
