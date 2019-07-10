@@ -28,10 +28,10 @@
               
           </li>
           <li class="nav-item item-menu">
-            <a class="nav-link-meio" style="margin:0px 80px 0px 60px;" href="/home">Home</a>
+            <a class="nav-link-meio" style="margin:0px 80px 0px 60px;" href="/homer">Home</a>
           </li>
           <li class="nav-item item-menu" id="nav-item-logo">
-            <a href="/home"><img class="logo" src="{{ asset('img/logo/abrigologo.png') }}"></a>
+            <a href="/homer"><img class="logo" src="{{ asset('img/logo/abrigologo.png') }}"></a>
           </li>
           <li class="nav-item item-menu">
             <a class="nav-link-meio" style="margin:0px 60px 0px 80px;" href="/noticias">Notícias</a>

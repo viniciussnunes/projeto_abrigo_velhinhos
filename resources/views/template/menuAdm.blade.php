@@ -18,13 +18,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item item-menu">
-              <a style="margin:0;"; class="nav-link-meio" href="/home">Voltar para o Site</a>
+              <a style="margin:0;"; class="nav-link-meio" href="/homer">Voltar para o Site</a>
           </li>
           <li class="nav-item item-menu">
             <a class="nav-link-meio" style="margin:0px 80px 0px 60px;" href="/publicacaoAdm">Fazer publicação</a>
           </li>
           <li class="nav-item item-menu" id="nav-item-logo">
-            <a href="/home"><img class="logo" src="{{ asset('img/logo/abrigologo.png') }}"></a>
+            <a href="/homer"><img class="logo" src="{{ asset('img/logo/abrigologo.png') }}"></a>
           </li>
           <li class="nav-item item-menu">
             <a class="nav-link-meio" style="margin:0px 0px 0px 60px;" href="/cadastroIdosoAdm">Registro de Idosos</a>
