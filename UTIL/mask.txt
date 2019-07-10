@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="js\jquery-3.3.1.min.js"></script>
+    <!-- <script type="text/javascript" src="js\jquery.mask.js"></script> -->
+    <script type="text/javascript" src="js\jquery.mask.min.js "></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.data').mask('00/00/0000');
+            $('.tempo').mask('00:00:00');
+            $('.data_tempo').mask('00/00/0000 00:00:00');
+            $('.cep').mask('00000-000');
+            $('.tel').mask('00000-0000');
+            $('.ddd_tel').mask('(00) 0000-0000');
+            // $('.cpf').mask('000.000.000-00');
+            $('.cnpj').mask('00.000.000/0000-00');
+            $('.dinheiro').mask('000.000.000.000.000,00' , { reverse : true});
+            $('.dinheiro2').mask("#.##0,00" , { reverse:true});
+            $('.cor_hex').mask('#xxxxxx' , {
+
+                                            translation: {
+                                                'x': {
+                                                    pattern: /[a-fA-F0-9]/
+                                                },
+                                                '#' : ''
+                                            }
+                                            });
+        
+            $('.cpf').mask("000.000.000-99", { placeholder: "___.___.___-__" }) ;
+            $('#unmask').click(function(){
+                var unmask_value = $('.cpf').cleanVal();
+                $('#clearcpf').innerHTML(unmask_value);
+                document.getElementById("demo").innerHTML = unmask_value;
+            });
+        });
+    </script>
+</head>
+<body>
+    <form action="#">
+        <input type="text" name="cpf" id="cpf" class="cpf">
+        <button type="submit">Enviar</button>
+        <button id="unmask">Unmask</button>
+    </form>
+        <p id="clearcpf">vvvvvvv</p> 
+    http://www.botecodigital.info/jquery/criando-mascaras-de-input-com-jquery-mask-plugin/
+    <p id="demo"></p>
+</body>
+</html>
