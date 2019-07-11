@@ -41,7 +41,7 @@
             <div class="media-body">
               <h3 class="heading">Faça sua Doação</h3>
               <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="#">Saiba Mais</a></p>
+              <p><a href=#>Saiba Mais</a></p>
             </div>
           </div>  
         </div>
@@ -74,7 +74,7 @@
           <span class="featured-text mb-3 d-block">Destaque</span>
           <h2>O Abrigo necessita de Reformas</h2>
           <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod numquam eius dolores facere commodi. Sequi dicta aut nulla ducimus error incidunt veritatis consequatur modi hic vel repudiandae, ullam at doloremque.</p>
-          <p><a href="#" class="btn btn-primary btn-hover-white py-3 px-5">Doe Agora</a></p>
+          <p><a href=# class="btn btn-primary btn-hover-white py-3 px-5">Doe Agora</a></p>
         </div>
         
       </div>
@@ -92,7 +92,7 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
-            <a href="#" class="mb-3 img-wrap">
+            <a href=/noticias class="mb-3 img-wrap">
               <img src="{{('img/noticia3.jpg')}}" class="img-fluid">
               <span class="date">23.07.2019</span>
             </a>
@@ -103,24 +103,24 @@
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
-            <a href="#" class="mb-3 img-wrap">
+            <a href=/noticias class="mb-3 img-wrap">
               <img src="{{('img/noticia2.jpg')}}" class="img-fluid">
               <span class="date">09.04.2019</span>
             </a>
-            <h3><a href="#">Doações para o Abrigo</a></h3>
+            <h3><a href=/noticias>Doações para o Abrigo</a></h3>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#">Ler Mais</a></p>
+            <p><a href=/noticias>Ler Mais</a></p>
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
-            <a href="#" class="mb-3 img-wrap">
+            <a href=/noticias class="mb-3 img-wrap">
               <img src="{{('img/noticia1.jpg')}}" class="img-fluid">
               <span class="date">09.04.2019</span>
             </a>
-            <h3><a href="#">Visita da OSCTEC</a></h3>
+            <h3><a href=/noticias>Visita da OSCTEC</a></h3>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#">Ler Mais</a></p>
+            <p><a href=/noticias>Ler Mais</a></p>
           </div>
         </div>
       </div>
