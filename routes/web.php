@@ -36,8 +36,3 @@ Route::get('/cadastroVoluntarioAdm', 'CadastroVoluntarioAdmController@index');
 Route::get('/cadastroIdosoAdm', 'CadastroIdosoAdmController@index');
 
 Route::get('/publicacaoAdm', 'PublicacaoAdmController@index');
-
-
-
-Auth::routes();
-Route::get('/home', 'HomeController@index'); 
