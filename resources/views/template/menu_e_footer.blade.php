@@ -15,6 +15,26 @@
 
 <body>
 
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Giving</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="/homer" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="/noticias" class="nav-link">Notícias</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,9 +48,9 @@
               
           </li>
           <li class="nav-item item-menu">
-            <a class="nav-link-meio" style="margin:0px 80px 0px 60px;" href="/homer">Home</a>
+            
           </li>
-          <li class="nav-item item-menu" id="nav-item-logo">
+          <li class="nav-item">
             <a href="/homer"><img class="logo" src="{{ asset('img/logo/abrigologo.png') }}"></a>
           </li>
           <li class="nav-item item-menu">
