@@ -2,14 +2,15 @@
 
 @section('content')
 
-<div class="block-31" style="position: relative;">
+  <div class="block-31" style="position: relative;">
     <div class="owl-carousel loop-block-31 ">
-      <div class="block item" >
-        <img src="{{ asset('img/idosa.jpg') }}">
-        <div class="card-img-overlay">
-          <!-- <div class="container">
-          <p> O Abrigo dos Velhinhos de Tubarão, Santa Catarina, atua há anos cuidando dos idosos da região. Seu principal intuito é oferecer um local que possua os cuidados necessários para os mesmos. O abrigo está localizado na rua São João, 1125 (CEP: 88704-100) em Tubarão. Para entrar em contato, basta ligar para o número (48) 3628-0351. Os idosos que se encontram no abrigo podem receber visitas. As visitas são realizadas de segunda a sexta das 15:00 às 17:00 e nos finais de semana, das 14:00 às 18:00. Vale a pena conhecer mais sobre o trabalho do local e ajudar! “Quando a velhice chegar, aceita-a, ama-a. Ela é abundante em prazeres se souberes amá-la.”, Sêneca.</p>
-          </div> -->
+      <div class="block-30 item" style="background-image:url({{url('img/idosa.jpg')}})" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h2 class="heading">Ajude o Abrigo dos Velhinhos de Tubarão a crescer.</h2>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -22,7 +23,7 @@
         <div class="col-md-4">
           <div class="media block-6">
             <div class="icon">
-              <img src="{{ asset('img/I.png') }}" alt="">
+              <img src="{{ asset('img/I.png') }}">
             </div>
             <div class="media-body">
               <h3 class="heading">Participe dos Eventos</h3>
@@ -35,7 +36,7 @@
         <div class="col-md-4">
           <div class="media block-6">
             <div class="icon">
-            <img src="{{ asset('img/doe.png') }}" alt="">
+            <img src="{{ asset('img/doe.png') }}">
             </div>
             <div class="media-body">
               <h3 class="heading">Faça sua Doação</h3>
@@ -62,14 +63,68 @@
     </div>
   </div>
   
-<!-- ########################ICONES-MEIO###################### -->
-          <div id="div-icones">
-              <div class="icones-home"><a href="/noticias"><img src="{{ asset('img/I.png') }}" alt=""></a><p>Fique atualizado</p></div>
-              <div id="icone-center" class="icones-home"><a href="#"><img src="{{ asset('img/doe.png') }}" alt=""></a><p>Doe</p></div>
-              <div class="icones-home"><a href="/cadastroVoluntario"><img src="{{ asset('img/voluntary.png') }}" alt=""></a><p>Seja um voluntario</p></div>
-          </div>
-          <div class="barra container"></div>
-          <div class="text-center"><h2>Colaboradores</h2></div>
+  <div class="featured-donate overlay-color" style="background-image:url({{url('img/abrigo.jpg')}})">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 order-lg-2 mb-3 mb-lg-0">
+          <img src="{{ asset('img/abrigo.jpg') }}" class="img-fluid">
+        </div>
+        <div class="col-lg-4 pr-lg-5">
+          <span class="featured-text mb-3 d-block">Destaque</span>
+          <h2>O Abrigo necessita de Reformas</h2>
+          <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod numquam eius dolores facere commodi. Sequi dicta aut nulla ducimus error incidunt veritatis consequatur modi hic vel repudiandae, ullam at doloremque.</p>
+          <p><a href="#" class="btn btn-primary btn-hover-white py-3 px-5">Doe Agora</a></p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 
+  <div class="site-section bg-light">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h2>Últimas Notícias</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="post-entry">
+            <a href="#" class="mb-3 img-wrap">
+              <img src="{{('img/noticia1.jpg')}}" class="img-fluid">
+              <span class="date">July 26, 2018</span>
+            </a>
+            <h3><a href="#">Visita da OSCTEC</a></h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <p><a href="#">Leia Mais</a></p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="post-entry">
+            <a href="#" class="mb-3 img-wrap">
+              <img src="images/img_5.jpg" alt="Image placeholder" class="img-fluid">
+              <span class="date">July 26, 2018</span>
+            </a>
+            <h3><a href="#">You May Save The Life of A Child</a></h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <p><a href="#">Read More</a></p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="post-entry">
+            <a href="#" class="mb-3 img-wrap">
+              <img src="images/img_6.jpg" alt="Image placeholder" class="img-fluid">
+              <span class="date">July 26, 2018</span>
+            </a>
+            <h3><a href="#">Children That Needs Care</a></h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <p><a href="#">Read More</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .section -->
 
   @endsection  

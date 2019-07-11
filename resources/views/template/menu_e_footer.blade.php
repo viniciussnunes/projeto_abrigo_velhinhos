@@ -61,10 +61,10 @@
           <div class="block-23">
             <h3 class="heading-section">Contatos</h3>
               <ul>
-                <li><a href="https://wego.here.com/directions/mix//Abrigo-dos-Velhinhos-de-Tubarao,-Rua-S%C3%A3o-Jo%C3%A3o-,-1125,-88704-100-Tubar%C3%A3o,-Brazil:e-eyJuYW1lIjoiQWJyaWdvIGRvcyBWZWxoaW5ob3MgZGUgVHViYXJhbyIsImFkZHJlc3MiOiJSdWEgU1x1MDBlM28gSm9cdTAwZTNvICwgMTEyNSwgVHViYXJcdTAwZTNvIChTYW50YSBDYXRhcmluYSkiLCJsYXRpdHVkZSI6LTI4LjQ3NDc2NjgwMDEwNiwibG9uZ2l0dWRlIjotNDkuMDMxOTgyODkyMDAyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjIwMDU3NzE3Njk2OTA5MH0=?map=-28.47477,-49.03198,15,normal&fb_locale=pt_BR"><span class="icon icon-map-marker"></span><span class="text">Rua São João, 1125 8704-100 Tubarão (Santa Catarina)</span></a></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href="https://www.instagram.com/abrigotubarao/?hl=pt-br"><span class="icon icon-envelope"></span><span class="text">@abrigotubarao</span></a></li>
-                <li><a href="https://www.facebook.com/pages/Abrigo-dos-Velhinhos-de-Tubarao/200577176969090"><span class="icon icon-envelope"></span><span class="text">Abrigo dos Velhinhos Tubarão</span></a></li>
+                <li><a href="https://wego.here.com/directions/mix//Abrigo-dos-Velhinhos-de-Tubarao,-Rua-S%C3%A3o-Jo%C3%A3o-,-1125,-88704-100-Tubar%C3%A3o,-Brazil:e-eyJuYW1lIjoiQWJyaWdvIGRvcyBWZWxoaW5ob3MgZGUgVHViYXJhbyIsImFkZHJlc3MiOiJSdWEgU1x1MDBlM28gSm9cdTAwZTNvICwgMTEyNSwgVHViYXJcdTAwZTNvIChTYW50YSBDYXRhcmluYSkiLCJsYXRpdHVkZSI6LTI4LjQ3NDc2NjgwMDEwNiwibG9uZ2l0dWRlIjotNDkuMDMxOTgyODkyMDAyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjIwMDU3NzE3Njk2OTA5MH0=?map=-28.47477,-49.03198,15,normal&fb_locale=pt_BR"><img width="30px" src="{{ asset('img/localizacao.png') }}"><span class="text">Rua São João, 1125 8704-100 Tubarão (Santa Catarina)</span></a></li>
+                <li><a href="#"><img width="30px" src="{{ asset('img/telefone.png') }}"><span class="text">+2 392 3929 210</span></a></li>
+                <li><a href="https://www.instagram.com/abrigotubarao/?hl=pt-br"><img width="40px" src="{{ asset('img/instagram.png') }}"><span class="text">@abrigotubarao</span></a></li>
+                <li><a href="https://www.facebook.com/pages/Abrigo-dos-Velhinhos-de-Tubarao/200577176969090"><img width="30px" src="{{ asset('img/facebook.png') }}"></span><span class="text">Abrigo dos Velhinhos Tubarão</span></a></li>
               </ul>
             </div>
         </div> 
