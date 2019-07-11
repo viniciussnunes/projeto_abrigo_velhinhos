@@ -93,34 +93,34 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
             <a href="#" class="mb-3 img-wrap">
+              <img src="{{('img/noticia3.jpg')}}" class="img-fluid">
+              <span class="date">23.07.2019</span>
+            </a>
+            <h3><a href="/noticias">Entrega do novo Site</a></h3>
+            <p>Criado pela turma do Tecnico em Informatica para Internet do Senai Tubarão</p>
+            <p><a href="/noticias">Ler Mais</a></p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="post-entry">
+            <a href="#" class="mb-3 img-wrap">
+              <img src="{{('img/noticia2.jpg')}}" class="img-fluid">
+              <span class="date">09.04.2019</span>
+            </a>
+            <h3><a href="#">Doações para o Abrigo</a></h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+            <p><a href="#">Ler Mais</a></p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="post-entry">
+            <a href="#" class="mb-3 img-wrap">
               <img src="{{('img/noticia1.jpg')}}" class="img-fluid">
-              <span class="date">July 26, 2018</span>
+              <span class="date">09.04.2019</span>
             </a>
             <h3><a href="#">Visita da OSCTEC</a></h3>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#">Leia Mais</a></p>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="post-entry">
-            <a href="#" class="mb-3 img-wrap">
-              <img src="images/img_5.jpg" alt="Image placeholder" class="img-fluid">
-              <span class="date">July 26, 2018</span>
-            </a>
-            <h3><a href="#">You May Save The Life of A Child</a></h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#">Read More</a></p>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="post-entry">
-            <a href="#" class="mb-3 img-wrap">
-              <img src="images/img_6.jpg" alt="Image placeholder" class="img-fluid">
-              <span class="date">July 26, 2018</span>
-            </a>
-            <h3><a href="#">Children That Needs Care</a></h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-            <p><a href="#">Read More</a></p>
+            <p><a href="#">Ler Mais</a></p>
           </div>
         </div>
       </div>
