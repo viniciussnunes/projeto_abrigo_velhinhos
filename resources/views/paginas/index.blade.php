@@ -2,47 +2,66 @@
 
 @section('content')
 
-<div class="container">
-                <div class="bd-example">
-                  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="{{ asset('img/FundoPreto.jpg') }}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="{{ asset('img/FundoRosa.jpg') }}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="{{ asset('img/FundoVermelho.jpg') }}" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
+<div class="block-31" style="position: relative;">
+    <div class="owl-carousel loop-block-31 ">
+      <div class="block item" >
+        <img src="{{ asset('img/idosa.jpg') }}">
+        <div class="card-img-overlay">
+          <!-- <div class="container">
+          <p> O Abrigo dos Velhinhos de Tubarão, Santa Catarina, atua há anos cuidando dos idosos da região. Seu principal intuito é oferecer um local que possua os cuidados necessários para os mesmos. O abrigo está localizado na rua São João, 1125 (CEP: 88704-100) em Tubarão. Para entrar em contato, basta ligar para o número (48) 3628-0351. Os idosos que se encontram no abrigo podem receber visitas. As visitas são realizadas de segunda a sexta das 15:00 às 17:00 e nos finais de semana, das 14:00 às 18:00. Vale a pena conhecer mais sobre o trabalho do local e ajudar! “Quando a velhice chegar, aceita-a, ama-a. Ela é abundante em prazeres se souberes amá-la.”, Sêneca.</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="media block-6">
+            <div class="icon">
+              <img src="{{ asset('img/I.png') }}" alt="">
+            </div>
+            <div class="media-body">
+              <h3 class="heading">Participe dos Eventos</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="/noticias">Saiba Mais</a></p>
+            </div>
+          </div>     
+        </div>
+
+        <div class="col-md-4">
+          <div class="media block-6">
+            <div class="icon">
+            <img src="{{ asset('img/doe.png') }}" alt="">
+            </div>
+            <div class="media-body">
+              <h3 class="heading">Faça sua Doação</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="#">Saiba Mais</a></p>
+            </div>
+          </div>  
+        </div>
+
+        <div class="col-md-4">
+          <div class="media block-6">
+            <div class="icon">
+              <img src="{{ asset('img/voluntary.png') }}" alt="">
+            </div>
+            <div class="media-body">
+              <h3 class="heading">Seja um Voluntário</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="/cadastroVoluntario">Saiba Mais</a></p>
+            </div>
+          </div> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
 <!-- ########################ICONES-MEIO###################### -->
           <div id="div-icones">
               <div class="icones-home"><a href="/noticias"><img src="{{ asset('img/I.png') }}" alt=""></a><p>Fique atualizado</p></div>

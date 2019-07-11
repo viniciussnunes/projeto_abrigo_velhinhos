@@ -7,20 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500|Gaegu:700" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="{{asset('/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('/css/animate.css')}}">
     <link rel="stylesheet" href="{{asset('/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-    @yield('css')
+    <link rel="stylesheet" href="{{asset('/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/aos.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/ionicons.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/jquery.timepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/icomoon.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/style.css')}}">
     <title>Abrigo Dos Velhinhos</title>
 
 </head>
@@ -32,12 +31,12 @@
     <div class="container">
       <a href="/homer"><img class="navbar-brand" src="{{ asset('img/logo/abrigologo.png') }}"></a>
       <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="/homer" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="/sobre" class="nav-link">Sobre</a></li>
-          <li class="nav-item"><a href="/noticias" class="nav-link">Notícias</a></li>
-          <li class="nav-item"><a href="/cadastroVoluntario" class="nav-link">Voluntários</a></li>
-          <li class="nav-item"><a href="/cadastroIdoso" class="nav-link">Vagas</a></li>
+        <ul class="navbar-nav ml-auto" >
+          <li class="nav-item active"><a href="/homer" style="color: black; font-weight: 600" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/sobre" style="color: black; font-weight: 600" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="/noticias" style="color: black; font-weight: 600" class="nav-link">Notícias</a></li>
+          <li class="nav-item"><a href="/cadastroVoluntario" style="color: black; font-weight: 600" class="nav-link">Voluntários</a></li>
+          <li class="nav-item"><a href="/cadastroIdoso" style="color: black; font-weight: 600" class="nav-link">Vagas</a></li>
         </ul>
       </div>
     </div>
@@ -57,53 +56,6 @@
           <p><a href="/cadastroVoluntario" class="btn btn-primary px-4 py-3">Seja um Voluntário</a></p>
         </div>
 
-        
-         <!-- Notícias
-        <div class="col-md-6 col-lg-4">
-          <h3 class="heading-section">Noticias</h3>
-          <div class="block-21 d-flex mb-4">
-            <figure class="mr-3">
-              <img src="images/img_1.jpg" alt="" class="img-fluid">
-            </figure>
-            <div class="text">
-              <h3 class="heading"><a href="#">Give Meal A Day</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="block-21 d-flex mb-4">
-            <figure class="mr-3">
-              <img src="images/img_2.jpg" alt="" class="img-fluid">
-            </figure>
-            <div class="text">
-              <h3 class="heading"><a href="#">Free Education For African Children</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="block-21 d-flex mb-4">
-            <figure class="mr-3">
-              <img src="images/img_4.jpg" alt="" class="img-fluid">
-            </figure>
-            <div class="text">
-              <h3 class="heading"><a href="/cadastroVoluntario">Seja um voluntário</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
         <!-- Contatos -->
         <div class="col-md-6 col-lg-6 text-center">
           <div class="block-23">
@@ -119,20 +71,18 @@
       </div>
 
       <!-- Copyright -->
-      <div class="row pt-5">
+      <!-- <div class="row pt-5">
         <div class="col-md-12 text-center">
-          <p>
+          <p> -->
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a> -->
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
+          <!-- </p>
         </div>
       </div>
-    </div>
+    </div> -->
   </footer>
   
-
-
 </body>
 {{-- <script src="jquery-3.4.0.min.js"></script> --}}
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
