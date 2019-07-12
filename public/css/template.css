@@ -1,0 +1,21 @@
+.img-noticias {
+    width: 350px;
+    height: 250px;
+}
+  
+.img-noticias img {
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.img-destaque {
+    width: 800px;
+    height: 400px;
+}
+  
+.img-destaque img {
+    width: 800px;
+    height: 400px;
+    object-fit: fill;
+}

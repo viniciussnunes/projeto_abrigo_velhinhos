@@ -113,7 +113,6 @@
   <div class="site-section">
     <div class="container">
       <div class="row">
-
         <div class="col-md-4">
           <div class="media block-6">
             <div class="icon">
@@ -152,7 +151,6 @@
             </div>
           </div> 
         </div>
-
       </div>
     </div>
   </div>
