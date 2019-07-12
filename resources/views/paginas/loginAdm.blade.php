@@ -14,7 +14,7 @@
     <input type="password" id="inputPassword" class="form-control" placeholder="Password">
 
     <button class="btn btn-lg btn-primary btn-block" type="submit" style="background-color: #68c7e8">Entrar</button>
-    <a class="btn btn-lg btn-secondary btn-block" href="/home" style="background-color: #212529">Voltar para o Site</a>
+    <a class="btn btn-lg btn-secondary btn-block" href="/homer" style="background-color: #212529">Voltar para o Site</a>
   </form>
 </div>
 
