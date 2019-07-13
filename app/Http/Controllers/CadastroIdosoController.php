@@ -13,15 +13,7 @@ class CadastroIdosoController extends Controller
     
     public function store(Request $dadosForm)
     {
-        ##essa é a forma de ver o conteúdo de uma variável no laravel, tbm pode usar var_dump, basta descomentar e verá no navegador o array com os dados do form
-        // dd($dadosForm->all()); 
-        if (empty($dadosForm['nomeIdoso'])) {
-            return view('paginas/cadastroIdoso');
-        }
-        
-         //dd($dadosForm->all()); 
-        ##array para inserção de dados, basta colocar o nome do campo d atabela a esquerda e o valor do array do form à direita
-        ##Link para consulta da documentação do laravel sobre query: https://laravel.com/docs/5.8/queries
+       
         $dados = [
             'nome_idoso' => $dadosForm['nomeIdoso'],
             'nascimento_idoso' => $dadosForm['dataNascIdoso'],
@@ -41,19 +33,9 @@ class CadastroIdosoController extends Controller
             'cidade' => $dadosForm['cidade'],
         ];
 
-         Cadastro::insert($dados);
+        Cadastro::insert($dados);
 
-        ##Para fazer uma consulta na tabela pessoa:
-
-        $retornoConsulta = Cadastro::get()->toArray();
-        // dd($retornoConsulta);
-
-       //pega o registro do banco
-        // $usuario = Pessoa::where('id_pessoa',1)->pluck('nome');
-        // dd($usuario); 
-
-
-        return view('paginas/index',$retornoConsulta );
+        return view('paginas/index');
     }
 
 
