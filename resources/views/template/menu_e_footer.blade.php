@@ -12,7 +12,7 @@
     <title>Abrigo Dos Velhinhos</title>
 
 </head>
-
+<h1>{{$retornoConsulta[0]['nomeIdoso']}}</h1>
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">

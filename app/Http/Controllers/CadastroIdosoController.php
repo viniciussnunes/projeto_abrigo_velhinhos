@@ -14,7 +14,7 @@ class CadastroIdosoController extends Controller
     public function store(Request $dadosForm)
     {
         ##essa é a forma de ver o conteúdo de uma variável no laravel, tbm pode usar var_dump, basta descomentar e verá no navegador o array com os dados do form
-        //dd($dadosForm->all()); 
+        // dd($dadosForm->all()); 
         if (empty($dadosForm['nomeIdoso'])) {
             return view('paginas/cadastroIdoso');
         }
@@ -53,7 +53,7 @@ class CadastroIdosoController extends Controller
         // dd($usuario); 
 
 
-        return view('paginas/index');
+        return view('paginas/index',$retornoConsulta );
     }
 
 
