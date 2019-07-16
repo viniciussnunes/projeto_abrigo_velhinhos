@@ -45,7 +45,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark sticky-top" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg ftco_navbar bg-white sticky-top" id="ftco-navbar">
     <div class="container">
       <a href="/homer"><img class="navbar-brand" src="{{ asset('img/logo/abrigologo.png') }}"></a>
       <div class="collapse navbar-collapse" id="ftco-nav">

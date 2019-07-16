@@ -27,8 +27,8 @@
 
 <body>
 
-
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light sticky-top" id="ftco-navbar">
+<!--CLASSE PARA DEIXAR MENU FIXO - sticky-top -->
+  <nav class="navbar navbar-expand-lg ftco_navbar bg-white" id="ftco-navbar">
     <div class="container">
       <a href="/homer"><img class="navbar-brand" style="float: left" src="{{ asset('img/logo/abrigologo.png') }}">
         <div style= "float: left;">
@@ -37,7 +37,7 @@
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
+        Menu 
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
@@ -111,8 +111,6 @@
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/jquery.animateNumber.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
 @yield('js')
 
