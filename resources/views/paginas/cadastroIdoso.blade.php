@@ -2,7 +2,6 @@
 
 @section('js')
   <script src="{{asset('/js/cadastroIdoso.js')}}"></script>
-  {{-- <script src="{{asset('/js/cep.js')}}"></script> --}}
   <script src="{{asset('/js/jquery.mask.min.js')}}"></script>
   <script src="{{asset('/js/sweetalert2.min.js')}}"></script>
 @endsection

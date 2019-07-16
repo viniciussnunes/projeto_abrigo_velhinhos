@@ -11,7 +11,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{asset('/css/style.scss')}}">
   <link rel="stylesheet" href="{{asset('/css/sweetalert2.min.css')}}">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
@@ -36,7 +35,7 @@
     <link rel="stylesheet" href="{{asset('/css/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{asset('/css/jquery.timepicker.css')}}">
     <link rel="stylesheet" href="{{asset('/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('/css/icomoon.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('/css/icomoon.css')}}"> --}}
     <link rel="stylesheet" href="{{asset('/css/style.css')}}">
     <title>Abrigo Dos Velhinhos</title>
 
