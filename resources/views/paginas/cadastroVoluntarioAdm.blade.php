@@ -2,10 +2,10 @@
 
 @section('contentAdm')
 
-<div class="container tabela text-center">
+<div class="container tabela text-center" style="margin-top: 40px">
     <h1>Registro de Voluntários</h1>
     <h6>Esses são os registros de todas as pessoas que desejam se voluntariar</h6>
-<table class="table table-dark tabela " style="border-radius:10px">
+<table class="table">
   <thead>
     <tr>
       <th scope="col"></th>

@@ -28,7 +28,7 @@
 <body>
 
 <!--CLASSE PARA DEIXAR MENU FIXO - sticky-top -->
-  <nav class="navbar navbar-expand-lg ftco_navbar bg-white" id="ftco-navbar">
+  <nav class="navbar navbar-expand-lg ftco_navbar sticky-top" id="ftco-navbar" style="background-color: rgb(64, 64, 64)">
     <div class="container">
       <a href="/homer"><img class="navbar-brand" style="float: left" src="{{ asset('img/logo/abrigologo.png') }}">
         <div style= "float: left;">
@@ -41,11 +41,11 @@
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="/home" style="color: black; font-weight: 600" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="/noticias" style="color: black; font-weight: 600" class="nav-link">Notícias</a></li>
-          <li class="nav-item"><a href="/cadastroVoluntario" style="color: black; font-weight: 600" class="nav-link">Voluntários</a></li>
-          <li class="nav-item"><a href="/cadastroIdoso" style="color: black; font-weight: 600" class="nav-link">Vagas</a></li>
-          <li class="nav-item"><a href="/sobre" style="color: black; font-weight: 600" class="nav-link">Sobre</a></li>
+          <li class="nav-item active"><a href="/home" style="color:rgb(121, 204, 171); font-weight: 400; font-size: 20px" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/noticias" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Notícias</a></li>
+          <li class="nav-item"><a href="/cadastroVoluntario" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Voluntários</a></li>
+          <li class="nav-item"><a href="/cadastroIdoso" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Vagas</a></li>
+          <li class="nav-item"><a href="/sobre" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Sobre</a></li>
 
         </ul>
       </div>

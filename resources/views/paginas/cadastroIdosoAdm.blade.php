@@ -2,10 +2,10 @@
 
 @section('contentAdm')
 
-<div class="container tabela text-center" style="width:1100px; margin-top: 40px">
+<div class="container tabela text-center" style="margin-top: 40px">
     <h1>Registro de Idosos</h1>
     <h6>Esses são os registros de todas as pessoas que desejam morar no abrigo</h6>
-<table class="table table-dark tabela" style="border-radius:10px">
+<table class="table">
   <thead>
     <tr>
       <th scope="col"></th>
@@ -24,42 +24,42 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-     <td style="border: 1px solid gray">Gustavo Pacheco Gonzaga</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">10/07/2001</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">N</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Josevaldo</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">AB+</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Sim, ele possui um problema cardíaco</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Ele come de tudo, só não gosta quando não tem comida</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Toma dois remedios pela manhã e mais um de noite</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Possui leve alergia a picada de mosquito</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Sempre deixe comida disponivel, principalmente durante a noite</td style="border: 1px solid gray"> 
+     <td class="borda" >Gustavo Pacheco Gonzaga</td >
+      <td class="borda" >10/07/2001</td >
+      <td class="borda" >N</td >
+      <td class="borda" >Josevaldo</td >
+      <td class="borda" >AB+</td >
+      <td class="borda" >Sim, ele possui um problema cardíaco</td >
+      <td class="borda" >Ele come de tudo, só não gosta quando não tem comida</td >
+      <td class="borda" >Toma dois remedios pela manhã e mais um de noite</td >
+      <td class="borda" >Possui leve alergia a picada de mosquito</td >
+      <td class="borda" >Sempre deixe comida disponivel, principalmente durante a noite</td > 
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td style="border: 1px solid gray">Gustavo Pacheco Gonzaga</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">10/07/2001</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">N</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Josevaldo</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">AB+</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Sim, ele possui um problema cardíaco</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Ele come de tudo, só não gosta quando não tem comida</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Toma dois remedios pela manhã e mais um de noite</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Possui leve alergia a picada de mosquito</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Sempre deixe comida disponivel, principalmente durante a noite</td style="border: 1px solid gray">
+      <td class="borda" >Gustavo Pacheco Gonzaga</td >
+      <td class="borda" >10/07/2001</td >
+      <td class="borda" >N</td >
+      <td class="borda" >Josevaldo</td >
+      <td class="borda" >AB+</td >
+      <td class="borda" >Sim, ele possui um problema cardíaco</td >
+      <td class="borda" >Ele come de tudo, só não gosta quando não tem comida</td >
+      <td class="borda" >Toma dois remedios pela manhã e mais um de noite</td >
+      <td class="borda" >Possui leve alergia a picada de mosquito</td >
+      <td class="borda" >Sempre deixe comida disponivel, principalmente durante a noite</td >
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td style="border: 1px solid gray">Gustavo Pacheco Gonzaga</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">10/07/2001</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">N</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Josevaldo</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">AB+</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Sim, ele possui um problema cardíaco</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Ele come de tudo, só não gosta quando não tem comida</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Toma dois remedios pela manhã e mais um de noite</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Possui leve alergia a picada de mosquito</td style="border: 1px solid gray">
-      <td style="border: 1px solid gray">Sempre deixe comida disponivel, principalmente durante a noite</td style="border: 1px solid gray">
+      <td class="borda" >Gustavo Pacheco Gonzaga</td >
+      <td class="borda" >10/07/2001</td >
+      <td class="borda" >N</td >
+      <td class="borda" >Josevaldo</td >
+      <td class="borda" >AB+</td >
+      <td class="borda" >Sim, ele possui um problema cardíaco</td >
+      <td class="borda" >Ele come de tudo, só não gosta quando não tem comida</td >
+      <td class="borda" >Toma dois remedios pela manhã e mais um de noite</td >
+      <td class="borda" >Possui leve alergia a picada de mosquito</td >
+      <td class="borda" >Sempre deixe comida disponivel, principalmente durante a noite</td >
     </tr>
   </tbody>
 </table>
