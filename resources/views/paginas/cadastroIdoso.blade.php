@@ -144,7 +144,7 @@
           </div>
           <div class="form-group">
             <input type="submit" value="Enviar Cadastro" class="btn btn-primary py-3 px-5">
-            <input type="submit" value="Cancelar" onclick="window.location='/homer'" class="btn btn-danger py-3 px-5">
+            <input type="submit" value="Cancelar" onclick="window.location='/home'" class="btn btn-danger py-3 px-5">
           </div>
         </form>
 
