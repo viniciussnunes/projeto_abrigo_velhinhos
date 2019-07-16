@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="{{asset('/css/flaticon.css')}}">
     {{-- <link rel="stylesheet" href="{{asset('/css/icomoon.css')}}"> --}}
     <link rel="stylesheet" href="{{asset('/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/template.css')}}">
     <title>Abrigo Dos Velhinhos</title>
 
 </head>
@@ -47,12 +48,16 @@
 <nav class="navbar navbar-expand-lg ftco_navbar bg-white sticky-top" id="ftco-navbar">
     <div class="container">
       <a href="/homer"><img class="navbar-brand" src="{{ asset('img/logo/abrigologo.png') }}"></a>
+      <div style= "float: left;">
+          <p class="p-logo" style=" margin-bottom: -10px; margin-top: 10px;">ABRIGO</p> 
+          <p class="p-logo" style=" margin-bottom: 0;">DOS VELHINHOS</p>
+        </div>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto" >
-          <li class="nav-item active"><a href="/home" style="color: black; font-weight: 600" class="nav-link">Ir para o Site</a></li>
-          <li class="nav-item"><a href="/publicacaoAdm" style="color: black; font-weight: 600" class="nav-link">Criar Publicação</a></li>
-          <li class="nav-item"><a href="/cadastroIdosoAdm" style="color: black; font-weight: 600" class="nav-link">Registro de Idosos</a></li>
-          <li class="nav-item"><a href="/cadastroVoluntarioAdm" style="color: black; font-weight: 600" class="nav-link">Registro de Voluntários</a></li>
+          <li class="nav-item active"><a href="/home" style="color: rgb(121, 204, 171); font-weight: 400; font-size: 20px" class="nav-link">Ir para o Site</a></li>
+          <li class="nav-item"><a href="/publicacaoAdm" style="color: black; font-weight: 400; font-size: 20px" class="nav-link">Criar Publicação</a></li>
+          <li class="nav-item"><a href="/cadastroIdosoAdm" style="color: black; font-weight: 400; font-size: 20px" class="nav-link">Registro de Idosos</a></li>
+          <li class="nav-item"><a href="/cadastroVoluntarioAdm" style="color: black; font-weight: 400; font-size: 20px" class="nav-link">Registro de Voluntários</a></li>
         </ul>
       </div>
     </div>

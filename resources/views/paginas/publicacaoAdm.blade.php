@@ -21,8 +21,8 @@
             </div>
         </div>
 
-        <button type="button" id="btn-cadastrar" class="btn btn-primary">Cadastrar</button>
-        <button type="button" class="btn btn-danger" onclick="window.location='/publicacaoAdm'">Cancelar</button>
+        <button type="button" id="btn-cadastrar" style="background-color: rgb(121, 204, 171)" class="btn btn-primary">Cadastrar</button>
+        <button type="button" class="btn btn-danger" style="color:white" onclick="window.location='/publicacaoAdm'">Cancelar</button>
 
     </form>
 </div>
