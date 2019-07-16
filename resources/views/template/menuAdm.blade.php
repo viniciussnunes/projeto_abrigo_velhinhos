@@ -49,10 +49,10 @@
       <a href="/homer"><img class="navbar-brand" src="{{ asset('img/logo/abrigologo.png') }}"></a>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto" >
-          <li class="nav-item active"><a href="/homer" style="color: white; font-weight: 600" class="nav-link">Ir para o Site</a></li>
-          <li class="nav-item"><a href="/publicacaoAdm" style="color: white; font-weight: 600" class="nav-link">Criar Publicação</a></li>
-          <li class="nav-item"><a href="/cadastroIdosoAdm" style="color: white; font-weight: 600" class="nav-link">Registro de Idosos</a></li>
-          <li class="nav-item"><a href="/cadastroVoluntarioAdm" style="color: white; font-weight: 600" class="nav-link">Registro de Voluntários</a></li>
+          <li class="nav-item active"><a href="/homer" style="color: black; font-weight: 600" class="nav-link">Ir para o Site</a></li>
+          <li class="nav-item"><a href="/publicacaoAdm" style="color: black; font-weight: 600" class="nav-link">Criar Publicação</a></li>
+          <li class="nav-item"><a href="/cadastroIdosoAdm" style="color: black; font-weight: 600" class="nav-link">Registro de Idosos</a></li>
+          <li class="nav-item"><a href="/cadastroVoluntarioAdm" style="color: black; font-weight: 600" class="nav-link">Registro de Voluntários</a></li>
         </ul>
       </div>
     </div>

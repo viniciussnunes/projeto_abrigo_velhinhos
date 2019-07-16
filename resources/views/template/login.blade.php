@@ -9,7 +9,7 @@
 
     <title>Abrigo Dos Velhinhos</title>
 </head>
-<body class="body-branco">
+<body>
 
 @yield('contentLogin')    
 
