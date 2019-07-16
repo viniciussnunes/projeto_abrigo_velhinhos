@@ -45,7 +45,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-lg ftco_navbar bg-white sticky-top" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg ftco_navbar sticky-top" id="ftco-navbar" style="background-color: rgb(64, 64, 64)">
     <div class="container">
       <a href="/homer"><img class="navbar-brand" src="{{ asset('img/logo/abrigologo.png') }}"></a>
       <div style= "float: left;">
@@ -55,9 +55,9 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto" >
           <li class="nav-item active"><a href="/home" style="color: rgb(121, 204, 171); font-weight: 400; font-size: 20px" class="nav-link">Ir para o Site</a></li>
-          <li class="nav-item"><a href="/publicacaoAdm" style="color: black; font-weight: 400; font-size: 20px" class="nav-link">Criar Publicação</a></li>
-          <li class="nav-item"><a href="/cadastroIdosoAdm" style="color: black; font-weight: 400; font-size: 20px" class="nav-link">Registro de Idosos</a></li>
-          <li class="nav-item"><a href="/cadastroVoluntarioAdm" style="color: black; font-weight: 400; font-size: 20px" class="nav-link">Registro de Voluntários</a></li>
+          <li class="nav-item"><a href="/publicacaoAdm" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Criar Publicação</a></li>
+          <li class="nav-item"><a href="/cadastroIdosoAdm" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Registro de Idosos</a></li>
+          <li class="nav-item"><a href="/cadastroVoluntarioAdm" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Registro de Voluntários</a></li>
         </ul>
       </div>
     </div>
