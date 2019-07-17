@@ -35,7 +35,7 @@
     <div class="form-row">
       <div class="form-group col-md-4">
         <label for="nomeIdoso">Nome Completo <span class="requerido">*</span></label>
-        <input id="nomeIdoso" type="text" class="form-control" name="nomeIdoso">
+        <input id="nomeIdoso" type="text" class="form-control" maxlength="50" name="nomeIdoso">
       </div>
       <div class="form-group col-md-4">
         <label for="dataNascIdoso">Data de Nascimento</label>
@@ -79,7 +79,7 @@
     <div class="form-row">
       <div class="form-group col-md-4">
         <label for="nomeResponsavel">Nome Completo <span class="requerido">*</span></label>
-        <input id="nomeResponsavel" type="text" class="form-control" name="nomeResponsavel">
+        <input id="nomeResponsavel" type="text" class="form-control" maxlength="50" name="nomeResponsavel">
       </div>
       <div class="form-group col-md-2">
         <label for="dataNascResposnavel">Data de Nascimento</label>
@@ -116,11 +116,11 @@
       </div>
       <div class="form-group col-md-2">
         <label for="parentesco">Grau de Parentesco <span class="requerido">*</span></label>
-        <input id="parentesco" type="text" class="form-control" name="parentesco">
+        <input id="parentesco" type="text" class="form-control" maxlength="20" name="parentesco">
       </div>
       <div class="form-group col-md-3">
         <label for="cidade">Cidade <span class="requerido">*</span></label>
-        <input id="cidade" type="text" class="form-control" name="cidade">
+        <input id="cidade" type="text" class="form-control" maxlength="50" name="cidade">
       </div>
     </div>
     
