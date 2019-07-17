@@ -15,6 +15,8 @@ class PublicacaoAdmController extends Controller
     public function store(Request $dadosForm)
     {
        
+        // dd('Oi');
+
         $dados = [
             // 'id_noticia' => $dadosForm['idNoticia'],
             'titulo' => $dadosForm['pubTitulo'],

@@ -20,7 +20,9 @@ Route::get('/cadastroIdoso/store ', 'CadastroIdosoController@store');
 ## CADASTRO PUBLICAÇÃO
 Route::get('/noticias', 'NoticiasController@index');
 Route::get('/publicacaoAdm', 'PublicacaoAdmController@index');
+Route::post('/publicacaoAdm', 'PublicacaoAdmController@index');
 Route::get('/publicacaoAdm/store', 'PublicacaoAdmController@store');
+Route::post('/publicacaoAdm/store', 'PublicacaoAdmController@store');
 
 
 
@@ -33,5 +35,3 @@ Route::get('/loginAdm', 'LoginAdmController@index');
 Route::get('/cadastroVoluntarioAdm', 'CadastroVoluntarioAdmController@index');
 
 Route::get('/cadastroIdosoAdm', 'CadastroIdosoAdmController@index');
-
-Route::get('/publicacaoAdm', 'PublicacaoAdmController@index');

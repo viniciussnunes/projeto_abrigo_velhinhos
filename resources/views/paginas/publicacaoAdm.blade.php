@@ -6,7 +6,6 @@
     <h1 class="text-center" style="margin-top: 20px">Crie sua publicação</h1>
 
     <form action="/publicacaoAdm/store" method="get" id="formPublicacao" style="margin-bottom: 10px">
-        @csrf
 
         <div class="form-row">
             <div class="form-group col-md-12">
@@ -16,8 +15,9 @@
             <div class="form-group col-md-12">
                 <label>Conteúdo da Publicação<span class="requerido">*</span></label>
                 <div id="summernote"></div>
-                <input id="pubTexto" type="text" name="pubTexto" value="" style="display:none">
-                <input id="idNoticia" type="text" name="idNoticia" value="1" style="display:none">
+                <!-- <textarea name="pubTexto" id="pubTexto" cols="30" rows="10" style="display:none"></textarea> -->
+                <!-- <input id="pubTexto" type="text" name="pubTexto" value="" style="display:none"> -->
+                <!-- <input id="idNoticia" type="text" name="idNoticia" value="1" style="display:none"> -->
             </div>
         </div>
 
@@ -28,6 +28,12 @@
 </div>
 
 <script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
     $('#summernote').summernote({
         focus: true,
         height: 200,
@@ -36,15 +42,18 @@
         }
     });
 
-    $(document).ready(function () {
+    $(document).ready(function() {
 
-        $('#btn-cadastrar').on('click', function () {
-            
+        $('#btn-cadastrar').on('click', function() {
+
             var contentPublicacao = $('#summernote').summernote('code');
-            
+            var tituloPublicacao = $('#pubTitulo').val();
+
+            console.log(contentPublicacao);
+
             validador = '';
-            ($('#pubTitulo').val() == '') ? validador += '<li>O TÍTULO da publicação</li>' : '';
-            (contentPublicacao == '<p><br></p>' || contentPublicacao == '') ? validador += '<li>O CONTEÚDO da publicação</li>' : '';
+            ($('#pubTitulo').val() == '') ? validador += '<li>O TÍTULO da publicação</li>': '';
+            (contentPublicacao == '<p><br></p>' || contentPublicacao == '') ? validador += '<li>O CONTEÚDO da publicação</li>': '';
 
             if (validador != '') {
                 Swal.fire({
@@ -57,7 +66,7 @@
                 return false;
             }
 
-            $('#pubTexto').attr('value',contentPublicacao);
+            $('#pubTexto').attr('value', contentPublicacao);
 
             Swal.fire({
                 title: 'Cadastro realizado',
@@ -66,9 +75,17 @@
                 confirmButtonColor: '#3085d6',
                 confirmButtonText: 'OK'
             }).then((result) => {
-                if (result.value){
+                if (result.value) {
+                    $.ajax({
+                        method: "POST",
+                        url: "/publicacaoAdm/store",
+                        data: {
+                            pubTitulo: tituloPublicacao,
+                            pubTexto: contentPublicacao
+                        }
+                    })
                 }
-                $('#formPublicacao').submit();
+                // $('#formPublicacao').submit();
             })
 
         });

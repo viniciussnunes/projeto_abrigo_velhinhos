@@ -27,3 +27,9 @@
 .requerido { color: red }
 
 #zapLabel { display: block}
+
+#idDiv img{
+    width: 350px !important;
+    height: 250px;
+    object-fit: fill;
+}

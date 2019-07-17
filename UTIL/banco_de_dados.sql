@@ -8,6 +8,8 @@ MySQL - 10.1.40-MariaDB : Database - bd_asilo
 
 /*!40101 SET SQL_MODE=''*/;
 
+DROP DATABASE `bd_asilo`;
+
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
@@ -20,30 +22,51 @@ USE `bd_asilo`;
 
 DROP TABLE IF EXISTS `cadastro`;
 
-CREATE TABLE `cadastro` (
-  `id_cadastro` int(11) NOT NULL AUTO_INCREMENT,
-  `nome_idoso` varchar(64) DEFAULT NULL,
-  `nascimento_idoso` varchar(10) DEFAULT NULL,
-  `aposentado` tinyint(1) DEFAULT NULL,
-  `doenca` varchar(1000) DEFAULT NULL,
-  `alimetacao` varchar(1000) DEFAULT NULL,
-  `medicacao` varchar(1000) DEFAULT NULL,
-  `alergia` varchar(1000) DEFAULT NULL,
-  `obs` varchar(1000) DEFAULT NULL,
-  `nome_responsavel` varchar(64) DEFAULT NULL,
-  `nascimento_responsavel` varchar(10) DEFAULT NULL,
-  `whatsapp` tinyint(1) DEFAULT NULL,
-  `email` varchar(64) DEFAULT NULL,
-  `parentesco` varchar(64) DEFAULT NULL,
-  `cidade` varchar(64) DEFAULT NULL,
-  `tel_fixo` varchar(14) DEFAULT NULL,
-  `tel_cel` varchar(17) DEFAULT NULL,
-  PRIMARY KEY (`id_cadastro`)
+CREATE TABLE `cadastro`
+(
+  `id_cadastro` int
+(11) NOT NULL AUTO_INCREMENT,
+  `nome_idoso` varchar
+(64) DEFAULT NULL,
+  `nascimento_idoso` varchar
+(10) DEFAULT NULL,
+  `aposentado` tinyint
+(1) DEFAULT NULL,
+  `doenca` varchar
+(1000) DEFAULT NULL,
+  `alimetacao` varchar
+(1000) DEFAULT NULL,
+  `medicacao` varchar
+(1000) DEFAULT NULL,
+  `alergia` varchar
+(1000) DEFAULT NULL,
+  `obs` varchar
+(1000) DEFAULT NULL,
+  `nome_responsavel` varchar
+(64) DEFAULT NULL,
+  `nascimento_responsavel` varchar
+(10) DEFAULT NULL,
+  `whatsapp` tinyint
+(1) DEFAULT NULL,
+  `email` varchar
+(64) DEFAULT NULL,
+  `parentesco` varchar
+(64) DEFAULT NULL,
+  `cidade` varchar
+(64) DEFAULT NULL,
+  `tel_fixo` varchar
+(14) DEFAULT NULL,
+  `tel_cel` varchar
+(17) DEFAULT NULL,
+  PRIMARY KEY
+(`id_cadastro`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
 /*Data for the table `cadastro` */
 
-insert  into `cadastro`(`id_cadastro`,`nome_idoso`,`nascimento_idoso`,`aposentado`,`doenca`,`alimetacao`,`medicacao`,`alergia`,`obs`,`nome_responsavel`,`nascimento_responsavel`,`whatsapp`,`email`,`parentesco`,`cidade`,`tel_fixo`,`tel_cel`) values 
+insert  into `cadastro`(`
+id_cadastro`,`nome_idoso
+`,`nascimento_idoso`,`aposentado`,`doenca`,`alimetacao`,`medicacao`,`alergia`,`obs`,`nome_responsavel`,`nascimento_responsavel`,`whatsapp`,`email`,`parentesco`,`cidade`,`tel_fixo`,`tel_cel`) values
 (1,'e',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2,'sd',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (3,'123',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
@@ -67,16 +90,21 @@ insert  into `cadastro`(`id_cadastro`,`nome_idoso`,`nascimento_idoso`,`aposentad
 
 DROP TABLE IF EXISTS `noticia`;
 
-CREATE TABLE `noticia` (
-  `id_noticia` int(11) NOT NULL AUTO_INCREMENT,
-  `conteudo` text COLLATE utf8_unicode_ci NOT NULL,
+CREATE TABLE `noticia`
+(
+  `id_noticia` int
+(11) NOT NULL AUTO_INCREMENT,
+  `conteudo` mediumtext COLLATE utf8_unicode_ci NOT NULL,
   `titulo` text COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id_noticia`)
+  PRIMARY KEY
+(`id_noticia`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 /*Data for the table `noticia` */
 
-insert  into `noticia`(`id_noticia`,`conteudo`,`titulo`) values 
+insert  into `noticia`(`
+id_noticia`,`conteudo
+`,`titulo`) values
 (1,'<p>2</p>','2'),
 (2,'<ol><li><b><span style=\"font-family: &quot;Arial Black&quot;;\">Teste<span style=\"background-color: rgb(0, 0, 255);\">&nbsp;teste&nbsp; &nbsp;&nbsp;</span></span></b></li></ol><h1><ol><li><b><span style=\"font-family: &quot;Arial Black&quot;;\"><span style=\"background-color: rgb(0, 0, 255);\">ter</span></span></b></li></ol></h1><ol><li><b><span style=\"font-family: &quot;Arial Black&quot;;\"><span style=\"background-color: rgb(0, 0, 255);\"><br></span></span></b></li></ol>','teste');
 
@@ -84,13 +112,20 @@ insert  into `noticia`(`id_noticia`,`conteudo`,`titulo`) values
 
 DROP TABLE IF EXISTS `voluntario`;
 
-CREATE TABLE `voluntario` (
-  `id_voluntario` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(100) NOT NULL,
-  `tel_fixo` varchar(20) NOT NULL,
-  `tel_cel` varchar(20) NOT NULL,
-  `whatsapp` tinyint(4) NOT NULL,
-  PRIMARY KEY (`id_voluntario`)
+CREATE TABLE `voluntario`
+(
+  `id_voluntario` int
+(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar
+(100) NOT NULL,
+  `tel_fixo` varchar
+(20) NOT NULL,
+  `tel_cel` varchar
+(20) NOT NULL,
+  `whatsapp` tinyint
+(4) NOT NULL,
+  PRIMARY KEY
+(`id_voluntario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*Data for the table `voluntario` */
