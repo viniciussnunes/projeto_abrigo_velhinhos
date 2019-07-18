@@ -20,7 +20,7 @@
     object-fit: fill;
 }
 
-.p-logo { color: rgb(121, 204, 171); font-weight: 500; text-shadow: 1px 1px 3px black; font-size: 20px; }
+.p-logo { color: rgb(121, 204, 171); font-weight: 500; font-size: 20px; }
 
 .borda { border: 1px solid lightgrey; }
 

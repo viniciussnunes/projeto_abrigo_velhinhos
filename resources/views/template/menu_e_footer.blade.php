@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="{{asset('/css/template.css')}}">
   <link rel="stylesheet" href="{{asset('/css/cadastroIdoso.css')}}">
   <link rel="stylesheet" href="{{asset('/css/sweetalert2.min.css')}}">
+
   <title>Abrigo Dos Velhinhos</title>
 
 </head>
@@ -32,7 +33,7 @@
 <!--CLASSE PARA DEIXAR MENU FIXO - sticky-top -->
   <nav class="navbar navbar-expand-lg ftco_navbar sticky-top" id="ftco-navbar" style="background-color: rgb(64, 64, 64)">
     <div class="container">
-      <a href="/homer"><img class="navbar-brand" style="float: left" src="{{ asset('img/logo/abrigologo.png') }}">
+      <a href="/home"><img class="navbar-brand" style="float: left" src="{{ asset('img/logo/abrigologo.png') }}">
         <div style= "float: left;">
           <p class="p-logo" style=" margin-bottom: -10px; margin-top: 10px;">ABRIGO</p> 
           <p class="p-logo" style=" margin-bottom: 0;" >DOS VELHINHOS</p>

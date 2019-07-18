@@ -3186,7 +3186,7 @@ input[type="button"].btn-block {
     text-decoration: none; }
   .nav-link.disabled {
     color: #6c757d; }
-
+.nav-item:hover { border-radius: 10px; border: 1px solid #64A289;}
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
   .nav-tabs .nav-item {
@@ -7748,8 +7748,9 @@ textarea.form-control {
 
 .footer {
   background: #404040;
-  padding: 8em 0;
-  color: #fff; }
+  padding: 4em 0;
+  color: #fff;
+  height: 400px;}
   .footer .heading-section {
     font-size: 20px;
     text-transform: uppercase;
