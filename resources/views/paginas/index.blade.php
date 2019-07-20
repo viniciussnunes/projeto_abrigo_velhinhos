@@ -40,7 +40,7 @@
             <div class="card-body">
               <h5 class="card-title">Eventos e notícias</h5>
               <p class="card-text">Confira nossos eventos e as principais notícias</p>
-              <a href="#" class="btn btn-primary">Confira</a>
+              <a href="/noticias" class="btn btn-primary">Confira</a>
             </div>
           </div>
 
@@ -53,7 +53,7 @@
               <div class="card-body">
                 <h5 class="card-title">Seja voluntário</h5>
                 <p class="card-text">Toda mão de obra é bem vinda, venha ajudar o próximo!</p>
-                <a href="#" class="btn btn-primary">Cadastre-se</a>
+                <a href="/cadastroVoluntario" class="btn btn-primary">Cadastre-se</a>
               </div>
             </div>
 
