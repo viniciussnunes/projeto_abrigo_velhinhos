@@ -21,7 +21,6 @@
   <link rel="stylesheet" href="{{asset('/css/icomoon.css')}}">
   <link rel="stylesheet" href="{{asset('/css/style.css')}}">
   <link rel="stylesheet" href="{{asset('/css/template.css')}}">
-  <link rel="stylesheet" href="{{asset('/css/cadastroIdoso.css')}}">
   <link rel="stylesheet" href="{{asset('/css/sweetalert2.min.css')}}">
 
   <title>Abrigo Dos Velhinhos</title>

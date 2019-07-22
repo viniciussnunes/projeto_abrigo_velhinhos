@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  validador = [];
+  validador = '';
   $('#btn-cadstrar').on('click',function(){
     ($('#nomeIdoso').val() == '') ? validador += '<li>Nome do IDOSO</li>' : null;
     ($('#seAposentado').val() == '') ? validador += '<li>Se o idoso é APOSENTADO</li>' : null;

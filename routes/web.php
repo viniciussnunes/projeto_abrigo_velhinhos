@@ -34,4 +34,4 @@ Route::get('/loginAdm', 'LoginAdmController@index');
 
 Route::get('/cadastroVoluntarioAdm', 'CadastroVoluntarioAdmController@index');
 
-Route::get('/cadastroIdosoAdm', 'CadastroIdosoAdmController@index');
+Route::get('/cadastroIdosoRelatorio', 'CadastroIdosoController@relatorio');

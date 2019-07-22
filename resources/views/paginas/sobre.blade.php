@@ -114,42 +114,42 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="media block-6">
-            <div class="icon">
-              <img src="{{ asset('img/I.png') }}">
+
+          <div class="card" style="">
+            <img class="card-img-top" src="{{url('img/doe.jpg')}}" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Faça uma doação</h5>
+              <p class="card-text">Qualquer quantia ajuda, sua atitude fará a diferença!</p>
+              <a href="#" class="btn btn-primary">Doar</a>
             </div>
-            <div class="media-body">
-              <h3 class="heading">Participe dos Eventos</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="/noticias">Saiba Mais</a></p>
-            </div>
-          </div>     
+          </div>
+
         </div>
 
         <div class="col-md-4">
-          <div class="media block-6">
-            <div class="icon">
-            <img src="{{ asset('img/doe.png') }}">
+
+          <div class="card" style="">
+            <img class="card-img-top" src="{{url('img/eventos.jpg')}}" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Eventos e notícias</h5>
+              <p class="card-text">Confira nossos eventos e as principais notícias</p>
+              <a href="/noticias" class="btn btn-primary">Confira</a>
             </div>
-            <div class="media-body">
-              <h3 class="heading">Faça sua Doação</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="#">Saiba Mais</a></p>
-            </div>
-          </div>  
+          </div>
+
         </div>
 
         <div class="col-md-4">
-          <div class="media block-6">
-            <div class="icon">
-              <img src="{{ asset('img/voluntary.png') }}" alt="">
+
+          <div class="card" style="">
+              <img class="card-img-top" src="{{url('img/voluntario.jpg')}}" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Seja voluntário</h5>
+                <p class="card-text">Toda mão de obra é bem vinda, venha ajudar o próximo!</p>
+                <a href="/cadastroVoluntario" class="btn btn-primary">Cadastre-se</a>
+              </div>
             </div>
-            <div class="media-body">
-              <h3 class="heading">Seja um Voluntário</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="/cadastroVoluntario">Saiba Mais</a></p>
-            </div>
-          </div> 
+
         </div>
       </div>
     </div>

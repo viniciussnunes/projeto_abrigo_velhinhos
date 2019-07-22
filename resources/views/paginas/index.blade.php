@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-md-4">
 
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="">
             <img class="card-img-top" src="{{url('img/doe.jpg')}}" alt="Imagem de capa do card">
             <div class="card-body">
               <h5 class="card-title">Faça uma doação</h5>
@@ -35,7 +35,7 @@
 
         <div class="col-md-4">
 
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="">
             <img class="card-img-top" src="{{url('img/eventos.jpg')}}" alt="Imagem de capa do card">
             <div class="card-body">
               <h5 class="card-title">Eventos e notícias</h5>
@@ -48,7 +48,7 @@
 
         <div class="col-md-4">
 
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="">
               <img class="card-img-top" src="{{url('img/voluntario.jpg')}}" alt="Imagem de capa do card">
               <div class="card-body">
                 <h5 class="card-title">Seja voluntário</h5>

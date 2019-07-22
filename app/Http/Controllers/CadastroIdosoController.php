@@ -38,6 +38,16 @@ class CadastroIdosoController extends Controller
         return view('paginas/index');
     }
 
+    public function relatorio()
+    {
+
+        $idosos = Cadastro::get()->toArray();
+
+        // dd($idosos);
+
+        return view('paginas/cadastroIdosoRelatorio', compact('idosos'));
+    }
+
 
 
 

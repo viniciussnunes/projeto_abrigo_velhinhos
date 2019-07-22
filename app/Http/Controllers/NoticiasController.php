@@ -9,7 +9,7 @@ class NoticiasController extends Controller
 {
     public function index()
     {
-        $retorno = Noticia::where('id_noticia', 14)->get()->toArray();
+        $retorno = Noticia::get()->toArray();
 
         // dd($retorno);
 

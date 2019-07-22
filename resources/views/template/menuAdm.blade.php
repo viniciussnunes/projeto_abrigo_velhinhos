@@ -58,7 +58,7 @@
         <ul class="navbar-nav ml-auto" >
           <li class="nav-item active"><a href="/home" style="color: rgb(121, 204, 171); font-weight: 400; font-size: 20px" class="nav-link">Ir para o Site</a></li>
           <li class="nav-item"><a href="/publicacaoAdm" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Criar Publicação</a></li>
-          <li class="nav-item"><a href="/cadastroIdosoAdm" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Registro de Idosos</a></li>
+          <li class="nav-item"><a href="/cadastroIdosoRelatorio" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Registro de Idosos</a></li>
           <li class="nav-item"><a href="/cadastroVoluntarioAdm" style="color: white; font-weight: 400; font-size: 20px" class="nav-link">Registro de Voluntários</a></li>
         </ul>
       </div>

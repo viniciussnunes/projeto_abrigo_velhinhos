@@ -28,8 +28,26 @@
 
 #zapLabel { display: block}
 
-#idDiv img{
+.idDiv img{
     width: 350px !important;
     height: 250px;
     object-fit: fill;
+}
+
+.idDiv h1 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.idDiv p{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 300; 
 }
