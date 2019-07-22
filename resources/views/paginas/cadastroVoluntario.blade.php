@@ -1,5 +1,10 @@
 @extends('template.menu_e_footer')
 
+@section('js')
+  <script src="{{asset('/js/jquery.mask.min.js')}}"></script>
+  <script src="{{asset('/js/sweetalert2.min.js')}}"></script>
+@endsection
+
 @section('content')
 
 <div class="block-31" style="position: relative;">
@@ -25,29 +30,44 @@
           <h5> Após o envio do cadastro você será chamado para uma visita no abrigo para que possa atuar como voluntário.</h5>
         </div>  
         <div class="col-md-12 pr-md-5">
-          <form>
+        <form action="/cadastroVoluntario/store" method="get" id="formCadVoluntario">
+    @csrf
             <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputAddress">Nome Completo</label>
-                <input type="text" class="form-control" name="volnome" placeholder="Nome">
+            <div class="form-group col-md-4">
+              <label for="nomeResponsavel">Nome Completo <span class="requerido">*</span></label>
+              <input id="nomeResponsavel" type="text" class="form-control" maxlength="50" name="nomeResponsavel">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" class="form-control" name="email">
+            </div>
+            <div class="form-group col-md-2">
+              <label for="telCel">Celular <span class="requerido">*</span></label>
+              <input id="telCel" type="text" class="form-control ddd_cel" name="telCel" placeholder="(__) _.____-____">
+            </div>
+            <div class="form-group col-md-2">
+              <label id="zapLabel">Whatsapp</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="whatsapp" id="zapSim" value="1">
+                <label class="form-check-label" for="exampleRadios1">
+                  Sim
+                </label>
               </div>
-              <div class="form-group col-md-6">
-                <label for="inputAddress">E-mail</label>
-                <input type="text" class="form-control" name="volemail" placeholder="E-mail">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="whatsapp" id="zapNao" value="0" checked>
+                <label class="form-check-label" for="exampleRadios2">
+                  Não
+                </label>
               </div>
-              <div class="form-group col-md-6">
-                <label for="inputAddress2">Telefone</label>
-                <input type="text" class="form-control" name="voltelefone" placeholder="Telefone">
-              </div>
-              <div class="form-group col-md-6">
-                  <label for="inputEmail4">Função</label>
-                  <input type="text" class="form-control" name="volfuncao" placeholder="Função">
-              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="observacao">Habilidades</label>
+              <textarea id="observacao" rows="4" cols="50" class="form-control" name="observacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
             </div>  
-              <div class="form-group">
-                <input type="submit" value="Enviar Cadastro" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
+          </div>
+            <button type="submit" id="btn-cadstrar" class="btn btn-primary">Cadastrar</button>
+            <button type="button" class="btn btn-danger" onclick="window.location='/home'">Cancelar</button>
+          </form>
         </div>
       </div>
     </div>
