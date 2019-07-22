@@ -21,9 +21,9 @@ class CadastroVoluntarioController extends Controller
 
          $dados = [
             'nome' => $dadosForm['nome'],
+            'email' => $dadosForm['email'],
             'tel_cel' => $dadosForm['telCel'],
             'whatsapp' => $dadosForm['whatsapp'],
-            'email' => $dadosForm['email'],
             'habilidades' => $dadosForm['habilidades']
         ];
 

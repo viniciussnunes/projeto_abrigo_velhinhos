@@ -34,8 +34,8 @@
     @csrf
             <div class="form-row">
             <div class="form-group col-md-4">
-              <label for="nomeResponsavel">Nome Completo <span class="requerido">*</span></label>
-              <input id="nomeResponsavel" type="text" class="form-control" maxlength="50" name="nomeResponsavel">
+              <label for="nome">Nome Completo <span class="requerido">*</span></label>
+              <input id="nome" type="text" class="form-control" maxlength="50" name="nome">
             </div>
             <div class="form-group col-md-3">
               <label for="email">E-mail</label>
@@ -61,8 +61,8 @@
               </div>
             </div>
             <div class="form-group col-md-6">
-              <label for="observacao">Habilidades</label>
-              <textarea id="observacao" rows="4" cols="50" class="form-control" name="observacao" form="formCadIdoso" placeholder="Descreva..."></textarea>
+              <label for="habilidades">Habilidades</label>
+              <textarea id="habilidades" rows="4" cols="50" class="form-control" name="habilidades" form="formCadVoluntario" placeholder="Descreva..."></textarea>
             </div>  
           </div>
             <button type="submit" id="btn-cadstrar" class="btn btn-primary">Cadastrar</button>
