@@ -3,6 +3,7 @@
 @section('js')
   <script src="{{asset('/js/jquery.mask.min.js')}}"></script>
   <script src="{{asset('/js/sweetalert2.min.js')}}"></script>
+  <script src="{{asset('/js/cadastroVoluntario.js')}}"></script>
 @endsection
 
 @section('content')
@@ -69,7 +70,7 @@
               </div>  
             </div>
             
-            <button type="submit" id="btn-cadstrar" class="btn btn-primary">Cadastrar</button>
+            <button type="button" id="btn-cadstrar" class="btn btn-primary">Cadastrar</button>
             <button type="button" class="btn btn-danger" onclick="window.location='/home'">Cancelar</button>
           </form>
         </div>
