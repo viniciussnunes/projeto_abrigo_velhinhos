@@ -126,7 +126,7 @@
             </div>
           </div>
           <button type="button" id="btn-cadstrar" class="btn btn-primary">Cadastrar</button>
-          <button type="button" class="btn btn-danger" onclick="window.location='/home'">Cancelar</button>
+          <button type="button" class="btn btn-danger" style="color:white" onclick="window.location='/home'">Cancelar</button>
         </form>
       </div> 
     </div>

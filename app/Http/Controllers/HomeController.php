@@ -10,7 +10,7 @@ class HomeController extends Controller
     public function index()
     {
 
-        $retorno = Noticia::get()->toArray();
+        $retorno = Noticia::limit(3)->get()->toArray();
 
         // dd($retorno);
 

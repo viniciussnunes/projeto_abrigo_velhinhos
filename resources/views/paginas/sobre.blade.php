@@ -118,45 +118,4 @@
     </div>
   </div>
 
-  <!-- CARDS -->
-  <div class="site-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="">
-            <img class="card-img-top" src="{{url('img/doe.jpg')}}" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Faça uma doação</h5>
-              <p class="card-text">Qualquer quantia ajuda, sua atitude fará a diferença!</p>
-              <a href="#" class="btn btn-primary">Doar</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card" style="">
-            <img class="card-img-top" src="{{url('img/eventos.jpg')}}" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Eventos e notícias</h5>
-              <p class="card-text">Confira nossos eventos e as principais notícias</p>
-              <a href="/noticias" class="btn btn-primary">Confira</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card" style="">
-              <img class="card-img-top" src="{{url('img/voluntario.jpg')}}" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Seja voluntário</h5>
-                <p class="card-text">Toda mão de obra é bem vinda, venha ajudar o próximo!</p>
-                <a href="/cadastroVoluntario" class="btn btn-primary">Cadastre-se</a>
-              </div>
-            </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  
 @endsection
