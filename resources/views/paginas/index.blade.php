@@ -72,7 +72,7 @@
         <div class="col-lg-4 pr-lg-5">
           <span class="featured-text mb-3 d-block">Destaque</span>
           <h2>O Abrigo necessita de Reformas</h2>
-          <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod numquam eius dolores facere commodi. Sequi dicta aut nulla ducimus error incidunt veritatis consequatur modi hic vel repudiandae, ullam at doloremque.</p>
+          <p class="mb-3">O Abrigo dos Velhinhos de Tubarão, Santa Catarina, atua há anos cuidando dos idosos da região. Seu principal intuito é oferecer um local que possua os cuidados necessários para os mesmos.</p>
           <p><a href=# class="btn btn-primary btn-hover-white py-3 px-5">Doe Agora</a></p>
         </div>
         
