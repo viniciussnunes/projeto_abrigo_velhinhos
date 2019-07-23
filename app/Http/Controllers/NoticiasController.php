@@ -9,7 +9,7 @@ class NoticiasController extends Controller
 {
     public function index()
     {
-        $retorno = Noticia::get()->toArray();
+        $retorno = Noticia::limit(6)->get()->toArray();
 
         // dd($retorno);
 
