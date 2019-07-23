@@ -2,10 +2,10 @@
 
 @section('contentAdm')
 
-<div class="container tabela text-center" style="margin-top: 40px">
+<div class="container tabela text-center" style="margin-top: 40px; overflow-x: scroll">
     <h1>Registro de Idosos</h1>
     <h6>Esses são os registros de todas as pessoas que desejam morar no abrigo</h6>
-<table class="table">
+<table class="table" >
   <thead>
     <tr>
       <th scope="col">Código</th>
