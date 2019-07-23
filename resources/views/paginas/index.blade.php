@@ -87,9 +87,21 @@
         <div class="col-md-12">
           <h2>Últimas Notícias</h2>
         </div>
-      </div>
-
-      <div class="row">
+      </div>  
+        <div class="row">
+          @if (!empty($retorno))
+          @foreach(array_reverse($retorno) as $noticia)
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="post-entry">
+              <div class="idDiv">{!!html_entity_decode($noticia['conteudo'])!!}</div>
+            </div>
+          </div>
+          @endforeach
+          @endif
+        </div>
+    </div>
+  </div>
+      <!-- <div class="row">
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry">
             <a href=/noticias class="mb-3 img-wrap img-noticias">
@@ -123,6 +135,6 @@
 
       </div>
     </div>
-  </div> <!-- .section -->
+  </div> .section -->
 
   @endsection  

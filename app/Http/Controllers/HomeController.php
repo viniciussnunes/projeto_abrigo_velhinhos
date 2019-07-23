@@ -3,12 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Usuario;
+use App\Noticia;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view('paginas/index');
+
+        $retorno = Noticia::get()->toArray();
+
+        // dd($retorno);
+
+        return view('paginas/index', compact('retorno'));
     }
 }
