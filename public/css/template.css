@@ -1,24 +1,10 @@
-.img-noticias {
-    width: 350px;
-    height: 250px;
-}
+.img-noticias { width: 350px; height: 250px; }
   
-.img-noticias img {
-    width: 350px;
-    height: 250px;
-    object-fit: fill;
-}
+.img-noticias img { width: 350px; height: 250px; object-fit: fill; }
 
-.img-destaque {
-    width: 800px;
-    height: 400px;
-}
+.img-destaque { width: 800px; height: 400px; }
   
-.img-destaque img {
-    width: 800px;
-    height: 400px;
-    object-fit: fill;
-}
+.img-destaque img { width: 800px; height: 400px; object-fit: fill; }
 
 .p-logo { color: rgb(121, 204, 171); font-weight: 500; font-size: 20px; }
 
@@ -28,26 +14,12 @@
 
 #zapLabel { display: block}
 
-.idDiv img{
-    width: 350px !important;
-    height: 250px;
-    object-fit: fill;
+.idDiv img { width: 350px !important; height: 250px; object-fit: fill; }
+
+.idDiv h1{ font-size: 20px; line-height: 1.5; color: #000; font-weight: 300; text-decoration: none; background-color: transparent;
+        font-family: "Poppins", "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-.idDiv h1 {
-    font-size: 20px;
-    line-height: 1.5;
-    color: #000;
-    font-weight: 300;
-    text-decoration: none;
-    background-color: transparent;
-    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-}
-.idDiv p{
-    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background: #fff;
-    font-size: 16px;
-    line-height: 1.3;
-    font-weight: 300; 
+.idDiv p{ background: #fff; font-size: 16px; line-height: 1.3; font-weight: 300; 
+        font-family: "Poppins", "Segoe UI", Roboto, Arial, sans-serif;
 }

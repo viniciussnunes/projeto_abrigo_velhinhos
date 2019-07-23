@@ -2,6 +2,7 @@
 
 @section('content')
 
+<!-- IMAGEM NO TOPO DA PÁGINA -->
   <div class="block-31" style="position: relative;">
     <div>
       <div class="block-30 item" style="background-image:url({{url('img/idosa.jpg')}})" data-stellar-background-ratio="0.5">
@@ -16,12 +17,12 @@
     </div>
   </div>
 
-
+<!-- CARDS -->
   <div class="site-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
 
+        <div class="col-md-4">
           <div class="card" style="">
             <img class="card-img-top" src="{{url('img/doe.jpg')}}" alt="Imagem de capa do card">
             <div class="card-body">
@@ -30,11 +31,9 @@
               <a href="#" class="btn btn-primary">Doar</a>
             </div>
           </div>
-
         </div>
 
         <div class="col-md-4">
-
           <div class="card" style="">
             <img class="card-img-top" src="{{url('img/eventos.jpg')}}" alt="Imagem de capa do card">
             <div class="card-body">
@@ -43,11 +42,9 @@
               <a href="/noticias" class="btn btn-primary">Confira</a>
             </div>
           </div>
-
         </div>
 
         <div class="col-md-4">
-
           <div class="card" style="">
               <img class="card-img-top" src="{{url('img/voluntario.jpg')}}" alt="Imagem de capa do card">
               <div class="card-body">
@@ -56,19 +53,22 @@
                 <a href="/cadastroVoluntario" class="btn btn-primary">Cadastre-se</a>
               </div>
             </div>
-
         </div>
+
       </div>
     </div>
   </div>
   
+  <!-- DIV COM TEXTO SOBRE O ABRIGO, IMAGEM E BOTÃO PARA DOAR -->
   <div class="featured-donate overlay-color" style="background-image:url({{url('img/abrigo.jpg')}})">
     
     <div class="container">
       <div class="row">
+
         <div class="col-lg-8 order-lg-2 mb-3 mb-lg-0 img-destaque">
           <img src="{{ asset('img/abrigo.jpg') }}" class="img-fluid">
         </div>
+
         <div class="col-lg-4 pr-lg-5">
           <span class="featured-text mb-3 d-block">Destaque</span>
           <h2>O Abrigo necessita de Reformas</h2>
@@ -80,6 +80,7 @@
     </div>
   </div>
 
+<!-- ÚLTIMAS NOTÍCIAS -->
   <div class="site-section bg-light">
     <div class="container">
       <div class="row mb-5">
@@ -99,26 +100,27 @@
             <p><a href="/noticias">Ler Mais</a></p>
           </div>
         </div>
+
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry img-noticias">
             <a href=/noticias class="mb-3 img-wrap">
               <img src="{{('img/noticia2.jpg')}}" class="img-fluid">
-              <span class="date">09.04.2019</span>
             </a>
             <h3><a href=/noticias>Doações para o Abrigo</a></h3>
             <p><a href=/noticias>Ler Mais</a></p>
           </div>
         </div>
+
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="post-entry img-noticias">
             <a href=/noticias class="mb-3 img-wrap">
               <img src="{{('img/noticia1.jpg')}}" class="img-fluid">
-              <span class="date">09.04.2019</span>
             </a>
             <h3><a href=/noticias>Visita da OSCTEC</a></h3>
             <p><a href=/noticias>Ler Mais</a></p>
           </div>
         </div>
+
       </div>
     </div>
   </div> <!-- .section -->
