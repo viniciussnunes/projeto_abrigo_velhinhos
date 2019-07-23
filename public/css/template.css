@@ -23,3 +23,5 @@
 .idDiv p{ background: #fff; font-size: 16px; line-height: 1.3; font-weight: 300; 
         font-family: "Poppins", "Segoe UI", Roboto, Arial, sans-serif;
 }
+
+.idDivHome p:last-child { display: none }
