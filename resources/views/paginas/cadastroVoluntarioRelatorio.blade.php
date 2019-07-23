@@ -19,11 +19,11 @@
     @foreach($voluntarios as $voluntario)
     <tbody>
       <tr>
-        <th scope="row">{{$voluntario['id_voluntario']}}</th>
+        <th class="borda">{{$voluntario['id_voluntario']}}</th>
         <td class="borda">{{$voluntario['nome']}}</td>
         <td class="borda">{{$voluntario['email']}}</td>
         <td class="borda">{{$voluntario['tel_cel']}}</td>
-        <td class="borda">{{$voluntario['whatsapp']}}</td>
+        <td class="borda">{{$voluntario['whatsapp'] == 1 ? 'Sim' : 'Não'}}</td>
         <td class="borda">{{$voluntario['habilidades']}}</td>
       </tr>
     </tbody>

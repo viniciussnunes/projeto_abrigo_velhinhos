@@ -17,7 +17,6 @@ class CadastroVoluntarioController extends Controller
 
     public function store(Request $dadosForm)
     {
-        // dd("a");
 
          $dados = [
             'nome' => $dadosForm['nome'],

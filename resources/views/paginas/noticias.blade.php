@@ -19,18 +19,15 @@
     <div class="site-section">
       <div class="container">  
         <div class="row">
-          @foreach($retorno as $noticia)
-            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
-              <div class="post-entry">
-                <div class="idDiv">{!!html_entity_decode($noticia['conteudo'])!!}</div>
+          @if (!empty($retorno))
+            @foreach($retorno as $noticia)
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="post-entry">
+                  <div class="idDiv">{!!html_entity_decode($noticia['conteudo'])!!}</div>
+                </div>
               </div>
-            </div>
-          @endforeach
-          <!-- <script>
-            var conteudo = {!! json_encode($retorno[0]['titulo']) !!};
-            var element = document.getElementById('idDiv2');
-            element.innerHTML = conteudo;
-          </script> -->
+            @endforeach
+          @endif
         </div>
       </div>
     </div>

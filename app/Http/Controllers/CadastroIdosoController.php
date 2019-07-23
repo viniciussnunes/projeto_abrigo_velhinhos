@@ -19,7 +19,7 @@ class CadastroIdosoController extends Controller
             'nascimento_idoso' => $dadosForm['dataNascIdoso'],
             'aposentado' => $dadosForm['seAposentado'],
             'doenca' => $dadosForm['doenca'],
-            'alimetacao' => $dadosForm['alimentacao'],
+            'alimentacao' => $dadosForm['alimentacao'],
             'medicacao' => $dadosForm['medicacao'],
             'alergia' => $dadosForm['alergia'],
             'obs' => $dadosForm['observacao'],

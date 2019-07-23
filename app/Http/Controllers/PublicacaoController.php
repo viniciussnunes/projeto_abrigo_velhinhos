@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Noticia;
 
-class PublicacaoAdmController extends Controller
+class PublicacaoController extends Controller
 {
     public function index()
     {
-        return view('paginas/publicacaoAdm');
+        return view('paginas/publicacao');
     }
 
     public function store(Request $dadosForm)
@@ -23,7 +23,7 @@ class PublicacaoAdmController extends Controller
 
         Noticia::insert($dados);
 
-        return view('paginas/publicacaoAdm');
+        return view('paginas/publicacao');
     }
     
 }

@@ -5,7 +5,7 @@
 <div class="container">
     <h1 class="text-center" style="margin-top: 20px">Crie sua publicação</h1>
 
-    <form action="/publicacaoAdm/store" method="get" id="formPublicacao" style="margin-bottom: 10px">
+    <form action="/publicacao/store" method="get" id="formPublicacao" style="margin-bottom: 10px">
 
         <div class="form-row">
             <div class="form-group col-md-12">
@@ -22,7 +22,7 @@
         </div>
 
         <button type="button" id="btn-cadastrar" style="background-color: rgb(121, 204, 171)" class="btn btn-primary">Cadastrar</button>
-        <button type="button" class="btn btn-danger" style="color:white" onclick="window.location='/publicacaoAdm'">Cancelar</button>
+        <button type="button" class="btn btn-danger" style="color:white" onclick="window.location='/publicacao'">Cancelar</button>
 
     </form>
 </div>
@@ -78,7 +78,7 @@
                 if (result.value) {
                     $.ajax({
                         method: "POST",
-                        url: "/publicacaoAdm/store",
+                        url: "/publicacao/store",
                         data: {
                             pubTitulo: tituloPublicacao,
                             pubTexto: contentPublicacao
