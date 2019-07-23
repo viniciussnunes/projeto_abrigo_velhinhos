@@ -2,6 +2,7 @@
 
 @section('content')
 
+<!-- IMAGEM NO TOPO DO SITE -->
 <div class="block-31" style="position: relative;">
     <div>
       <div class="block-30 block-30-sm item" style="background-image:url({{ url('img/abrigo2.jpg')}})" data-stellar-background-ratio="0.5">
@@ -16,6 +17,7 @@
     </div>
   </div>
   
+  <!-- TEXTO SOBRE O ABRIGO COM IMAGEM -->
   <div class="site-section mb-5">
     <div class="container">
       <div class="row mb-5">
@@ -33,10 +35,12 @@
         </div>
       </div>
       
+      <!-- COLABORADORES -->
       <div class="row mt-5">
         <div class="col-md-12 mb-5 text-center mt-5">
           <h2>Nossos Colaboradores</h2>
         </div>
+
         <div class="col-md-6 col-lg-3">
           <div class="block-38 text-center">
             <div class="block-38-img">
@@ -51,6 +55,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-3">
           <div class="block-38 text-center">
             <div class="block-38-img">
@@ -65,6 +70,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-3">
           <div class="block-38 text-center">
             <div class="block-38-img">
@@ -79,6 +85,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-3">
           <div class="block-38 text-center">
             <div class="block-38-img">
@@ -93,11 +100,12 @@
             </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
 
+  <!-- CARROSSEL -->
   <div class="site-section">
     <div class="container">
       <div class="block-31 mb-5" style="position: relative;">
@@ -110,11 +118,11 @@
     </div>
   </div>
 
+  <!-- CARDS -->
   <div class="site-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-
           <div class="card" style="">
             <img class="card-img-top" src="{{url('img/doe.jpg')}}" alt="Imagem de capa do card">
             <div class="card-body">
@@ -123,11 +131,9 @@
               <a href="#" class="btn btn-primary">Doar</a>
             </div>
           </div>
-
         </div>
 
         <div class="col-md-4">
-
           <div class="card" style="">
             <img class="card-img-top" src="{{url('img/eventos.jpg')}}" alt="Imagem de capa do card">
             <div class="card-body">
@@ -136,11 +142,9 @@
               <a href="/noticias" class="btn btn-primary">Confira</a>
             </div>
           </div>
-
         </div>
 
         <div class="col-md-4">
-
           <div class="card" style="">
               <img class="card-img-top" src="{{url('img/voluntario.jpg')}}" alt="Imagem de capa do card">
               <div class="card-body">
@@ -149,14 +153,10 @@
                 <a href="/cadastroVoluntario" class="btn btn-primary">Cadastre-se</a>
               </div>
             </div>
-
         </div>
+
       </div>
     </div>
   </div>
-
-
-
-                
-   
+  
 @endsection
